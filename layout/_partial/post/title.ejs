@@ -1,0 +1,19 @@
+<% if (item.link){ %>
+  <h1 class="arc-title">
+      <a href="<%- item.link %>">
+          <%= item.title %>
+      </a>
+  </h1>
+<% } else { %>
+  <% if (index){ %>
+    <h1 class="index-title">
+        <a href="<%- config.root %><%- item.path %>">
+            <%= item.title %>
+        </a>
+    </h1>
+  <% } else { %>
+    <h1 class="page-title center">
+        <%= item.title %>
+    </h1>
+  <% } %>
+<% } %>

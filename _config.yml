@@ -1,0 +1,22 @@
+menu:
+  主页: /
+  归档: /archives
+
+logo: BNGH
+
+more:
+  Github: https://github.com/gaoryrt/
+  微博: http://weibo.com/R1T1AN
+  知乎: https://www.zhihu.com/people/gaoryrt
+  rss: /rss2.xml
+  关于我: /CV
+
+about:
+  title: _About_me
+  link: /CV
+
+disqus_shortname: gaoryrt
+
+excertp_num: 120
+
+footer_info: © Gaoryrt 2015-2016

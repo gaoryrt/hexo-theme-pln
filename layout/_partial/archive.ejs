@@ -1,0 +1,64 @@
+<% var title = '';
+if (page.category) title = page.category;
+if (page.tag) title = page.tag;
+if (page.archive){
+  if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+  else title = __('archive_title');
+} %>
+
+<h1 class="archive-title <% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>">
+  <% if (page.archive) { %>
+  <i class="fa fa-archive"></i>
+  <% } else { %>
+  <i class="fa fa-tag"></i>
+  <% } %>
+  <%= title %>
+</h1>
+<div class="archive-num">
+  <%= _p('page_counter', page.posts.length) %>
+</div>
+<div class="archive">
+  <% var last = 0, year, yearArr = []; %>
+    <% page.posts.each(function(post){ %>
+      <% year = post.date.year(); %>
+
+      <% if (last != year){ %>
+
+        <% if (yearArr.length != 0){ %>
+        </ul></section>
+        <% } %>
+
+        <% yearArr.push(year); %>
+
+        <% last = year; %>
+
+        </ul></section>
+        <section data-link="year-<%= year %>" class="section-year">
+            <h2><%= year %></h2>
+            <ul class="archive-list">
+                <div class="archive-item">
+                    <div class="archive-time">
+                      <%= date(post.date, 'MM-DD') %>
+                    </div>
+                    <div class="archive-detail">
+                      <a href="<%- url_for(post.path) %>" class="archive-link">
+                        <%= post.title %>
+                      </a>
+                    </div>
+                </div>
+                <hr>
+                <% }else{ %>
+                <div class="archive-item">
+                    <div class="archive-time">
+                      <%= date(post.date, 'MM-DD') %>
+                    </div>
+                    <div class="archive-detail">
+                      <a href="<%- url_for(post.path) %>" class="archive-link">
+                        <%= post.title %>
+                      </a>
+                    </div>
+                </div>
+                <hr>
+      <% } %>
+    <% }) %>
+</div>

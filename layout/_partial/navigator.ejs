@@ -1,0 +1,46 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="nav-container">
+
+  <div class="navbar-header">
+    <a href="/" class="navbar-brand"><%- theme.logo %></a>
+  </div>
+
+  <ul class="nav navbar-nav navbar-left">
+
+    <li class="dropdown">
+      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-tags fa-lg"></i>
+      </span></a>
+      <ul class="dropdown-content">
+          <% if (site.categories && site.categories.length){ %>
+          <% var categories = [];
+              site.categories.forEach(function(categorie){
+                  categories.push('<li><a href="' + config.root + categorie.path + '">' + categorie.name + '</a></li>');
+          });%>
+           <%- categories.join('') %>
+          <% } %>
+      </ul>
+    </li>
+  </ul>
+
+  <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-link fa-lg"></i>
+      </a>
+      <ul class="dropdown-content">
+        <% for (var i in theme.more){ %>
+          <li>
+            <a href="<%- theme.more[i] %>">
+        <%= i %>
+      </a>
+    </li>
+     <% } %>
+    </ul>
+    </li>
+    <li class="archives"><a href="/archives">
+      <i class="fa fa-archive fa-lg"></i>
+    </a></li>
+  </ul>
+  </div>
+</nav>

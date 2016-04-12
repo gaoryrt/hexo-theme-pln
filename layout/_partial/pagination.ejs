@@ -1,0 +1,30 @@
+<nav>
+    <ul class="pager">
+        <% if (page.prev){ %>
+            <li class="previous btn">
+                <a href="<%- config.root %><%- page.prev_link %>">
+                    &lt; <%= __('prev') %>
+                </a>
+            </li>
+        <% }else{ %>
+            <li class="previous disabled btn">
+                <a>
+                    &lt; <%= __('prev') %>
+                </a>
+            </li>
+        <% } %>
+        <% if (page.next){ %>
+            <li class="next btn">
+                <a href="<%- config.root %><%- page.next_link %>">
+                    <%= __('next') %> &gt;
+                </a>
+            </li>
+        <% }else{ %>
+            <li class="next disabled btn">
+                <a>
+                    <%= __('next') %> &gt;
+                </a>
+            </li>
+        <% } %>
+    </ul>
+</nav>

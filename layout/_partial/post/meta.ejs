@@ -1,0 +1,25 @@
+<time datetime="<%= item.date.toDate().toISOString() %>">
+    <i class="fa fa-calendar"></i>&nbsp;
+    <%= item.date.format(config.date_format) %>
+</time>
+
+<% if (item.categories && item.categories.length){ %>
+    <% var cats = [];
+        item.categories.forEach(function(cat){
+        cats.push('<a href="' + config.root + cat.path + '">' + cat.name + '</a>');
+    });%>
+    &nbsp;|&nbsp;&nbsp;
+    <i class="fa fa-tag"></i>&nbsp;
+    <%- cats.join(' ') %>
+<% } %>
+
+
+<% if (item.tags && item.tags.length){ %>
+    <% var tags = [];
+        item.tags.forEach(function(tag){
+        tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
+    });%>
+    &nbsp;|&nbsp;&nbsp;
+    <i class="fa fa-tag"></i>&nbsp;
+    <%- tags.join(' ') %>
+<% } %>
