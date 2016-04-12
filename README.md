@@ -1,10 +1,10 @@
 # hexo-theme-pln
 A plain theme for hexo  
 [demo](http://gaoryrt.com)  
-![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.png)  
-![tags](http://7xs4ih.com1.z0.glb.clouddn.com/tags.png)
-![article](http://7xs4ih.com1.z0.glb.clouddn.com/article.png)
-![dropdown](http://7xs4ih.com1.z0.glb.clouddn.com/dropdown.png)
+![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.jpg)  
+![tags](http://7xs4ih.com1.z0.glb.clouddn.com/tags.jpg)
+![article](http://7xs4ih.com1.z0.glb.clouddn.com/article.jpg)
+![dropdown](http://7xs4ih.com1.z0.glb.clouddn.com/dropdown.jpg)
 ***
 # Install
 Execute the following command under your `hexo` folder.
