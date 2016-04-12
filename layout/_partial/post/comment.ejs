@@ -3,8 +3,8 @@
 <script>
 
 var disqus_config = function () {
-this.page.url = 'http://gaoryrt.com';
-this.page.identifier = <%- theme.disqus_shortname%>;
+this.page.url = '<%= url %>';
+this.page.identifier = <%= item.id %>;
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

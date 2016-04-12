@@ -61,3 +61,4 @@ see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issu
 ***
 # Changelog
 - `2016-04-12`: init
+- `2016-04-13`: disqus showing same comments bug fix
