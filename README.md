@@ -56,5 +56,8 @@ excerpt_num: **number of auto excerpt words**
 footer_info: **black words fixed on the right end**
 ```
 ***
+# Issues
+see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issues).
+***
 # Changelog
 - `2016-04-12`: init
