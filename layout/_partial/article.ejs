@@ -8,6 +8,9 @@
   <% } else { %>
         <%- strip_html(item.content).replace(/^\s*/, '').replace(/\s*$/, '|').substring(0, theme.excerpt_num) %>
   <% } %>
+  <a href="<%- config.root %><%- item.path %>">
+    <%= __("read_more") %>
+  </a>
   </div>
   <div class="index-meta">
       <time datetime="<%= date_xml(item.date) %>" itemprop="datePublished">
