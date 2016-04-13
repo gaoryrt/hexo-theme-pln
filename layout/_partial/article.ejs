@@ -5,31 +5,15 @@
   <div class="excerpt">
   <% if (item.excerpt){ %>
     <%- item.excerpt %>
-    <a href="<%- config.root %><%- item.path %>">
-      <%= __("read_more") %>
-    </a>
   <% } else { %>
     <%- strip_html(item.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, theme.excerpt_num) %>
-    <a href="<%- config.root %><%- item.path %>">
-      <%= __("read_more") %>
-    </a>
   <% } %>
-
+  <a href="<%- config.root %><%- item.path %>">
+    <%= __("read_more") %>
+  </a>
   </div>
   <div class="index-meta">
-      <time datetime="<%= date_xml(item.date) %>" itemprop="datePublished">
-        <i class="fa fa-calendar"></i>&nbsp;
-        <%= date(item.date, "MM-DD") %>
-        &nbsp;&nbsp;
-      </time>
-      <i class="fa fa-tag"></i>&nbsp;
-      <% if (item.categories && item.categories.length){ %>
-        <% var cats = [];
-            item.categories.forEach(function(cat){
-            cats.push('<a href="' + config.root + cat.path + '">' + cat.name + '</a>');
-            });%>
-        <%- cats.join(' ') %>
-      <% } %>
+    <%- partial('post/meta', {item: item}) %>
   </div>
 </li>
 </div>
