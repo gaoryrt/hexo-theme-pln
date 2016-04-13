@@ -28,6 +28,11 @@
       <%- partial('post/meta', {item: item}) %>
     </div>
     <hr>
+    <div class="picture-container">
+      <% if (item.photos && item.photos.length){ %>
+        <%- partial('post/gallery', {item: item}) %>
+      <% } %>
+    </div>
     <%- item.content %>
 
   </article>
