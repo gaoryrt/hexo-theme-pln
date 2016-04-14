@@ -30,11 +30,9 @@
 <% if(page.cover) { %> <meta property="og:image" content="<%= page.cover %>" />
   <% } else { %> <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
-  <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico" rel="stylesheet" media="all" type="text/css">
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
-  <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://7xs4ih.com1.z0.glb.clouddn.com/pln.min.css">
+  <link rel="stylesheet" href="/css/pln.css">
   <link rel="icon" type="image/x-icon" href="<%- config.root %>favicon.ico">
   <script>
 var _hmt = _hmt || [];

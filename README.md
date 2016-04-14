@@ -65,3 +65,4 @@ see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issu
 - `2016-04-13`: read more link add
 - `2016-04-13`: no-tag but icon bug fix
 - `2016-04-13`: pass theme unit test
+- `2016-04-14`: see [2016-04-12 意见和建议](https://github.com/gaoryrt/hexo-theme-pln/issues/1)
