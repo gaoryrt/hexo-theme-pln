@@ -12,7 +12,7 @@
   else if (page.tag) title = page.tag;
   else if (page.archive){
     if (page.year) title = page.year + (page.month ? '/' + page.month : '');
-    else title = __('archive_a');
+    else title = __('archive_title');
   }
   else title = config.title;
   %>

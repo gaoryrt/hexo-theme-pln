@@ -1,7 +1,7 @@
 # hexo-theme-pln
 A plain theme for hexo  
 [demo](http://gaoryrt.com)  
-![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.jpg)  
+![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.jpg)
 ![tags](http://7xs4ih.com1.z0.glb.clouddn.com/tags.jpg)
 ![article](http://7xs4ih.com1.z0.glb.clouddn.com/article.jpg)
 ![dropdown](http://7xs4ih.com1.z0.glb.clouddn.com/dropdown.jpg)
@@ -13,7 +13,7 @@ Execute the following command under your `hexo` folder.
 git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln
 ```
 
-Then find `theme` in `hexo/_config.yml`, make it looks like this: `theme: pln`   
+Then find `theme` in `hexo/_config.yml`, make it looks like this: `theme: pln` 
 
 # Update
 Execute the following command to update Pln.
@@ -66,3 +66,4 @@ see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issu
 - `2016-04-13`: no-tag but icon bug fix
 - `2016-04-13`: pass theme unit test
 - `2016-04-14`: see [2016-04-12 意见和建议](https://github.com/gaoryrt/hexo-theme-pln/issues/1)
+- `2016-04-17`: archives header bug fix
