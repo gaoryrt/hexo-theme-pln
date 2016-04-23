@@ -7,7 +7,6 @@
 <time datetime="<%= date_xml(item.date) %>" itemprop="datePublished">
   <i class="fa fa-calendar"></i>&nbsp;
   <%= date(item.date, "MM-DD") %>
-  &nbsp;&nbsp;
 </time>
 <%}%>
 
@@ -16,7 +15,7 @@
         item.categories.forEach(function(cat){
         cats.push('<a href="' + config.root + cat.path + '">' + cat.name + '</a>');
     });%>
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;
     <i class="fa fa-tag"></i>&nbsp;
     <%- cats.join('·') %>
 <% } %>
@@ -27,7 +26,7 @@
         item.tags.forEach(function(tag){
         tags.push('<a href="' + config.root + tag.path + '">' + tag.name + '</a>');
     });%>
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;
     <i class="fa fa-tag"></i>&nbsp;
     <%- tags.join('·') %>
 <% } %>
