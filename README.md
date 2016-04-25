@@ -69,3 +69,4 @@ see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issu
 - `2016-04-17`: archives header bug fix
 - `2016-04-24`: forgot to add a css file last commit, maybe that's why nobody gives a star
 - `2016-04-25`: missing tag icon bug fix
+- `2016-04-26`: ul list unstyle bug fix
