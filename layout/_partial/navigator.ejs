@@ -4,7 +4,7 @@
   <div class="navbar-header">
     <a href="/" class="navbar-brand"><%- theme.logo %></a>
   </div>
-
+  <% if (site.categories && site.categories.length){ %>
   <ul class="nav navbar-nav navbar-left">
 
     <li class="dropdown">
@@ -12,16 +12,17 @@
         <i class="fa fa-tags fa-lg"></i>
       </span></a>
       <ul class="dropdown-content">
-          <% if (site.categories && site.categories.length){ %>
+
           <% var categories = [];
               site.categories.forEach(function(categorie){
                   categories.push('<li><a href="' + config.root + categorie.path + '">' + categorie.name + '</a></li>');
           });%>
            <%- categories.join('') %>
-          <% } %>
+
       </ul>
     </li>
   </ul>
+  <% } %>
 
   <ul class="nav navbar-nav navbar-right">
     <li class="dropdown">
