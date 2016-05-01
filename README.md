@@ -1,5 +1,7 @@
 # hexo-theme-pln
 A plain theme for hexo  
+Pln是一个纯文字友好的Hexo主题。  
+喜欢的用，不喜欢就别用。  
 [demo](http://gaoryrt.com)  
 ![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.jpg)
 ![tags](http://7xs4ih.com1.z0.glb.clouddn.com/tags.jpg)
@@ -59,7 +61,8 @@ footer_info: **black words fixed on the right end**
 ```
 ***
 # Issues
-see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issues).
+See and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issues).  
+有问题请直接提issue，或在微博上私信，一般回复时间不超过12小时。
 ***
 # Changelog
 - `2016-04-12`: init
@@ -74,3 +77,6 @@ see and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issu
 - `2016-04-26`: ul list unstyle bug fix
 - `2016-04-27`: **add google_analytics, add `google_analytics: YOURTOKENHERE` in `hexo/_config.yml` file to enable**
 - `2016-05-01`: no subtitle layout bug fix
+
+# license
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
