@@ -2,22 +2,22 @@ menu:
   主页: /
   归档: /archives
 
-logo: BNGH
+logo: XXX
 
 more:
   友情链接: /links.html
-  Github: https://github.com/gaoryrt/
-  微博: http://weibo.com/R1T1AN
-  知乎: https://www.zhihu.com/people/gaoryrt
+  Github: https://github.com/XXX/
+  微博: http://weibo.com/XXX
+  知乎: https://www.zhihu.com/people/XXX
   rss: /rss2.xml
-  关于我: /CV
+  关于我: /
 
 about:
-  title: _About_me
-  link: /CV
+  title: Theme Pln
+  link: https://github.com/gaoryrt/hexo-theme-pln
 
-disqus_shortname: gaoryrt
+disqus_shortname: yourdisqustoken
 
 excerpt_num: 120
 
-footer_info: © Gaoryrt 2015-2016
+footer_info: © XXX 2015-2016
