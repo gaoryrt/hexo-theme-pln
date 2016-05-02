@@ -33,8 +33,8 @@ rm -rf pln
 ```
 ***
 # After install
-**You should modify `hexo/themes/pln/_config.yml` file before deploy.  **  
-**Always add `subtitle: ` to your `hexo/_config.yml` file to avoid bug**  
+**You should modify `hexo/themes/pln/_config.yml` file before deploy.    
+Always add `subtitle: ` to your `hexo/_config.yml` file to avoid bug**  
 请务必修改以上内容。  
 
 
