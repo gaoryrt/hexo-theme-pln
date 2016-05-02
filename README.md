@@ -35,6 +35,7 @@ rm -rf pln
 # After install
 **You should modify `hexo/themes/pln/_config.yml` file before deploy.  **  
 **Always add `subtitle: ` to your `hexo/_config.yml` file to avoid bug**  
+请务必修改以上内容。  
 
 
 Here's what it looks like/means:  
@@ -61,8 +62,9 @@ footer_info: **black words fixed on the right end**
 ```
 ***
 # Issues
-See and leaves your [issues here](https://github.com/gaoryrt/hexo-theme-pln/issues).  
-有问题请直接提issue，或在微博上私信，一般回复时间不超过12小时。
+[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.  
+欢迎您对本项目提供和意见和建议。  
+(请直接提issue，或在微博上私信，一般回复时间不超过12小时)
 ***
 # Changelog
 - `2016-04-12`: init
