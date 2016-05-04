@@ -447,6 +447,9 @@ figure
 
     border-radius: 5px;
 }
+.footerFirstRow {
+    display: inline-block;
+}
 @media screen and (max-width:782px)
 {
     .back,
@@ -482,7 +485,7 @@ figure
     }
     .behind
     {
-        padding: 17px 0;
+        padding: 25px 0;
 
         color: rgba(0, 0, 0, 0);
     }
@@ -595,6 +598,9 @@ figure
     .post ul
     {
         margin-left: -10px;
+    }
+    .footerFirstRow {
+    display: block;
     }
 }
 @media screen and (min-width:360px) and (max-width:782px)
