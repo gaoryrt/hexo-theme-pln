@@ -1,26 +1,26 @@
 <nav>
     <ul class="pager">
         <% if (page.prev){ %>
-            <li class="previous btn">
+            <li class="previous">
                 <a href="<%- config.root %><%- page.prev_link %>">
                     &lt; <%= __('prev') %>
                 </a>
             </li>
         <% }else{ %>
-            <li class="previous disabled btn">
+            <li class="previous disabled">
                 <a>
                     &lt; <%= __('prev') %>
                 </a>
             </li>
         <% } %>
         <% if (page.next){ %>
-            <li class="next btn">
+            <li class="next">
                 <a href="<%- config.root %><%- page.next_link %>">
                     <%= __('next') %> &gt;
                 </a>
             </li>
         <% }else{ %>
-            <li class="next disabled btn">
+            <li class="next disabled">
                 <a>
                     <%= __('next') %> &gt;
                 </a>

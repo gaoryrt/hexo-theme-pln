@@ -46,7 +46,8 @@ img
 .index-title,
 .page-title,
 .navbar-brand,
-.btn
+.previous,
+.next
 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -55,35 +56,36 @@ body,
 {
     font-family: 'Hiragino Sans GB', 'Lucida Sans Unicode', 'WenQuanYi Micro Hei', Verdana, Aril, sans-serif;
 
-    background-color: rgb(249, 250, 251);
+    background-color: rgb(252, 252, 252);
 }
 pre
 {
     font-size: 1.5rem;
-    line-height: 24px;
-
+    line-height: 2em;
     margin-bottom: 0;
     padding: 15px;
-
     border: 0;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 code
 {
     word-wrap: break-word;
+    line-height: 2em;
+    font-size: .97em;
 
-    color: #000;
+    color: #333;
 }
 code,
 pre
 {
     font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 
-    background: #eee;
+    background: #F3F3F3;
 }
 .index-title,
 .page-title,
-.btn,
+.previous,
+.next,
 .archive-link,
 .dropdown-content,
 .index-meta
@@ -99,7 +101,8 @@ p,
     font-weight: 300;
 }
 .navbar-brand,
-.btn,
+.previous,
+.next,
 .right-foot
 {
     font-size: 1.5em;
@@ -134,32 +137,35 @@ a:focus
 
     writing-mode: lr-tb;
 }
-.container
+.container,
+.pager
 {
     max-width: 850px;
 }
 .nav-container,
-.container
+.container,
+.pager
 {
     padding: 0 5%;
 }
 p,
 .excerpt
 {
-    font-size: 16px;
-    line-height: 1.85em;
+    font-size: 17px;
+    line-height: 2em;
 
     padding: 10px 0;
 
-    letter-spacing: .5px;
+    letter-spacing: .6px;
 
     color: #555;
 }
 .post li
 {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
-    line-height: 1.8em;
+    line-height: 2em;
+    letter-spacing: .5px;
 
     list-style-type: disc;
 
@@ -284,7 +290,8 @@ article
 {
     color: black;
 }
-.btn:active
+.previous:active,
+.next:active
 {
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
             box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0);
@@ -369,6 +376,20 @@ pre .comment
 {
     margin-left: -175px;
 }
+blockquote {
+    margin: 10px 0;
+    font-style: italic;
+    line-height: 1.48;
+    padding: 0;
+    padding-left: 3rem;
+}
+.pager li>a {
+    border-radius: 0;
+    display: inline-block;
+}
+pager li {
+    display: inline-block;
+}
 pre .variable,
 pre .attribute,
 pre .tag,
@@ -444,8 +465,6 @@ td.gutter
 figure
 {
     overflow-x: auto;
-
-    border-radius: 5px;
 }
 .footerFirstRow {
     display: inline-block;
@@ -475,11 +494,13 @@ figure
     {
         order: 1;
     }
-    .navbar-left
+    .navbar-left,
+    .previous
     {
         float: left;
     }
-    .navbar-right
+    .navbar-right,
+    .next
     {
         float: right;
     }
