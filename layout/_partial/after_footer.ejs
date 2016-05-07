@@ -8,9 +8,7 @@ function revealOnScroll() {
     var current = $(this),
       height = $(window).outerHeight(),
       offsetTop = current.offset().top;
-    if (scrolled + height + 50 > offsetTop) {
-      current.addClass("animation");
-    }
+    (scrolled + height + 50 > offsetTop) ? current.addClass("animation"):'';
   });
 }
 $(window).on("scroll", revealOnScroll);
@@ -31,13 +29,8 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 // dropdown scripts
 $(".dropdown").click(function(event) {
   var current = $(this);
-  if($(current).children(".dropdown-content").hasClass("open")){
-    event.stopPropagation();
-    $(current).children(".dropdown-content").removeClass("open");
-  } else {
-    event.stopPropagation();
-    $(current).children(".dropdown-content").addClass("open");
-  }
+  event.stopPropagation();
+  $(current).children(".dropdown-content")[($(current).children(".dropdown-content").hasClass("open"))?'removeClass':'addClass']("open")
 });
 $(document).click(function(){
     $(".dropdown-content").removeClass("open");
