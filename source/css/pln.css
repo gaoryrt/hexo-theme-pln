@@ -469,10 +469,17 @@ figure
 .footerFirstRow {
     display: inline-block;
 }
+.busuanzi {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 30px 0;
+    color: #CDD2D4;
+}
 @media screen and (max-width:782px)
 {
     .back,
-    li.archives
+    li.archives,
+    .busuanzi
     {
         display: none;
     }
@@ -550,15 +557,19 @@ figure
     }
     p,
     .excerpt,
-    li
+    .post li
     {
         font-size: 16px;
         font-weight: 300;
-        line-height: 1.8em;
+        line-height: 1.9em;
 
         margin: 0;
 
         color: #666;
+    }
+    code {
+        font-size: 16px;
+        line-height: 1.9em;
     }
     .archive-title
     {
@@ -622,14 +633,5 @@ figure
     }
     .footerFirstRow {
     display: block;
-    }
-}
-@media screen and (min-width:360px) and (max-width:782px)
-{
-    .behind
-    {
-        padding: 10px 0;
-
-        color: rgba(0, 0, 0, 0);
     }
 }
