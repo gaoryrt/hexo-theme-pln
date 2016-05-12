@@ -1,7 +1,7 @@
 # hexo-theme-pln
 A plain theme for hexo  
-Pln是一个纯文字友好的Hexo主题。  
-喜欢的用，不喜欢就别用。  
+同时也是一个纯文字友好的Hexo主题。  
+**喜欢的用，不喜欢就别用。**  
 [demo](http://gaoryrt.com)  
 ![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.jpg)
 ![tags](http://7xs4ih.com1.z0.glb.clouddn.com/tags.jpg)
@@ -64,7 +64,7 @@ footer_info: **black words fixed on the right end**
 # Issues
 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.  
 欢迎您对本项目提供和意见和建议。  
-(请直接提issue，或在微博上私信，一般回复时间不超过12小时)
+(请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
 ***
 # Changelog
 - `2016-04-12`: init
