@@ -16,7 +16,7 @@ about:
   title: Theme Pln
   link: https://github.com/gaoryrt/hexo-theme-pln
 
-disqus_shortname: yourdisqustoken
+disqus_shortname:
 
 excerpt_num: 120
 

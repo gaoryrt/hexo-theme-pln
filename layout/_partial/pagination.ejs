@@ -1,30 +1,3 @@
-<nav>
-    <ul class="pager">
-        <% if (page.prev){ %>
-            <li class="previous">
-                <a href="<%- config.root %><%- page.prev_link %>">
-                    &lt; <%= __('prev') %>
-                </a>
-            </li>
-        <% }else{ %>
-            <li class="previous disabled">
-                <a>
-                    &lt; <%= __('prev') %>
-                </a>
-            </li>
-        <% } %>
-        <% if (page.next){ %>
-            <li class="next">
-                <a href="<%- config.root %><%- page.next_link %>">
-                    <%= __('next') %> &gt;
-                </a>
-            </li>
-        <% }else{ %>
-            <li class="next disabled">
-                <a>
-                    <%= __('next') %> &gt;
-                </a>
-            </li>
-        <% } %>
-    </ul>
-</nav>
+<ul class="pager">
+    <%- paginator() %>
+</ul>

@@ -1,4 +1,4 @@
-<% if (!index){ %>
+<% if (!index && theme.theme.disqus_shortname){ %>
 <div id="disqus_thread"></div>
 <script>
 
@@ -15,12 +15,4 @@ s.src = '//<%- theme.disqus_shortname%>.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-</script>
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-<div class="busuanzi center">
-页阅读量:&nbsp;<span id="busuanzi_value_page_pv"></span>&nbsp;・&nbsp;
-站访问量:&nbsp;<span id="busuanzi_value_site_pv"></span>&nbsp;・&nbsp;
-站访客数:&nbsp;<span id="busuanzi_value_site_uv"></span>
-</div>
 <% } %>
