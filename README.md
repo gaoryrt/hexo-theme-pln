@@ -3,10 +3,11 @@ A plain theme for hexo
 同时也是一个纯文字友好的Hexo主题。  
 **喜欢的用，不喜欢就别用。**  
 [demo](http://gaoryrt.com)  
-![index](http://7xs4ih.com1.z0.glb.clouddn.com/index.jpg)
-![tags](http://7xs4ih.com1.z0.glb.clouddn.com/tags.jpg)
-![article](http://7xs4ih.com1.z0.glb.clouddn.com/article.jpg)
-![dropdown](http://7xs4ih.com1.z0.glb.clouddn.com/dropdown.jpg)
+![index](/screenShots/ver1.0-index.jpg)
+![tags](/screenShots/ver1.0-tags.jpg)
+![article](/screenShots/ver1.0-article.jpg)
+![dropdown](/screenShots/ver1.0-dropdown.jpg)
+*screen shots capcured at 2016-05-14, ver1.0*
 ***
 # Install
 Execute the following command under your `hexo` folder.
