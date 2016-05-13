@@ -82,6 +82,9 @@ footer_info: **black words fixed on the right end**
 - `2016-05-04`: new footer rule, .behind layout upgrade
 - `2016-05-06`: upgrade cssstyle, button filter bug fix
 - `2016-05-08`: upgrade js ?: operator，fasten loading speed, busuanzi added
+
+***
+
 - `2016-05-14`: pln ver1.0, searching function is loading
 
 # license
