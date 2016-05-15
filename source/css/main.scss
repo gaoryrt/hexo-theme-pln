@@ -1,0 +1,238 @@
+@import "navigator";
+@import "search";
+@import "posts";
+@import "pager";
+@import "footer";
+@import "code";
+@import "animation";
+
+$background: #fcfcfc;
+$theme: #2570a1;
+$para: #555;
+$lighter: #adadad;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(http://7xs4ih.com1.z0.glb.clouddn.com/opensanscondlight.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Open Sans Condensed Bold'), local('OpenSans-CondensedBold'), url(http://7xs4ih.com1.z0.glb.clouddn.com/opensanscondbold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://7xs4ih.com1.z0.glb.clouddn.com/pacificoregular.woff) format('woff');
+}
+
+.index-title,
+.navbar-brand,
+.section-year,
+.archive-title,
+.pager {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body,
+.archive-time {
+    font-family: 'Hiragino Sans GB', 'Lucida Sans Unicode', 'WenQuanYi Micro Hei', Verdana, Aril, sans-serif;
+    background-color: $background;
+}
+
+.index-title,
+.archive-link,
+.dropdown-content,
+.index-meta,
+.current {
+    font-weight: 700 !important;
+}
+
+p,
+.excerpt,
+.behind,
+.meta,
+.post li {
+    font-weight: 300;
+}
+
+.navbar-brand,
+.right-foot,
+.pager {
+    font-size: 1.5em;
+}
+
+a,
+a:hover,
+a:focus {
+    color: $theme;
+}
+
+.container {
+    max-width: 850px;
+    padding: 0 5%;
+}
+
+p {
+    font-size: 17px;
+    line-height: 2em;
+    padding: 10px 0;
+    letter-spacing: .6px;
+    color: $para;
+}
+
+.post li {
+    font-size: 17px;
+    line-height: 2em;
+    letter-spacing: .5px;
+    list-style-type: disc;
+    color: lighten($para, 10%);
+}
+
+li {
+    list-style: none;
+}
+
+.behind {
+    font-size: 22px;
+    padding: 22px 0;
+    letter-spacing: 2px;
+    color: $lighter;
+}
+
+.back {
+    position: fixed;
+    top: 18px;
+    left: 5%;
+}
+
+.center,
+.behind,
+.archive-title,
+.archive-num,
+.picture-container {
+    text-align: center;
+}
+
+.meta {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    color: $lighter;
+}
+
+.black-color {
+    color: black;
+}
+
+.archive-num {
+    padding: 10px 0;
+    color: $lighter;
+}
+
+.archive-list {
+    padding: 10px 0;
+}
+
+.archive-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.archive-time {
+    font-size: 20px;
+    width: 40%;
+    margin-right: 20px;
+    text-align: right;
+    color: lighten($lighter, 10%);
+}
+
+.archive-detail {
+    font-size: 17px;
+    width: 90%;
+    padding: 0 20px;
+    word-wrap: break-word;
+    border-left: 1px solid lighten($lighter, 10%);
+}
+
+article {
+    padding: 40px 0;
+}
+
+blockquote {
+    margin: 10px 0;
+    font-style: italic;
+    line-height: 1.48;
+    padding: 0;
+    padding-left: 3rem;
+}
+
+table {
+    width: 100%;
+}
+
+iframe {
+    min-width: 100%;
+    min-height: 400px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.busuanzi {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 30px 0;
+    color: #CDD2D4;
+}
+
+@media screen and (max-width:782px) {
+    .back,
+    li.archives,
+    .busuanzi {
+        display: none;
+    }
+    .behind {
+        padding: 14px 0;
+        opacity: 0;
+    }
+    .container {
+        padding: 0;
+    }
+    .standard,
+    .archive,
+    .archive-title,
+    #disqus_thread {
+        padding: 0 7%;
+    }
+    p,
+    .post li {
+        font-size: 16px;
+        line-height: 1.9em;
+    }
+    .archive-title {
+        font-size: 2.2em;
+    }
+    .post ul {
+        margin-left: -10px;
+    }
+}

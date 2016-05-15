@@ -1,0 +1,34 @@
+$a: #555;
+
+.post-item {
+    padding: 10px 0;
+}
+
+.index-title {
+    font-size: 34px;
+    line-height: 32px;
+    width: 65%;
+}
+
+.excerpt {
+    font-size: 17px;
+    line-height: 2em;
+    padding: 10px 0;
+    letter-spacing: .6px;
+    color: $a;
+    width: 88%;
+}
+
+.index-meta {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:782px) {
+    .index-title {
+        width: 80%;
+    }
+    .excerpt {
+        font-size: 16px;
+        line-height: 1.9em;
+    }
+}

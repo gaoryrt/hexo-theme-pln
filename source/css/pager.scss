@@ -1,0 +1,65 @@
+$bg: #fff;
+$a: #333;
+$bordr: #e7e7e7;
+$hoverbg: #337ab7;
+$hovera: #e7e7e7;
+
+.pager,
+.prev,
+.page-number,
+.next,
+.space {
+    display: flex;
+}
+
+.prev,
+.page-number,
+.next {
+    padding: 10px 25px;
+}
+
+a.page-number:hover,
+a.next:hover,
+a.prev:hover {
+    transition: background-color .2s, color .2s;
+    background-color: $hoverbg;
+    color: $hovera;
+}
+
+.pager {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $bg;
+    border: $bordr solid 2px;
+    a {
+        color: $a;
+    }
+}
+
+.space {
+    padding: 10px 0;
+}
+
+@media screen and (max-width:782px) {
+    .pager {
+        font-size: 26px;
+        line-height: 35px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .prev,
+    .page-number,
+    .next {
+        padding: 10px;
+    }
+    .space {
+        padding: 10px 0;
+    }
+}

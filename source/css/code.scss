@@ -1,0 +1,118 @@
+$bg: #F3F3F3;
+$theme: #505050;
+$c1: #547ab2;
+$c2: #547ab2;
+$c3: #3eacab;
+$c4: #3eacab;
+$c5: #3eacab;
+$c6: #3eacab;
+$c7: #5a5050;
+
+figure {
+    overflow-x: auto;
+}
+
+td.gutter {
+    width: 50px;
+}
+
+pre {
+    font-size: 1.5rem;
+    line-height: 2em;
+    margin-bottom: 0;
+    padding: 15px;
+    border: 0;
+    border-radius: 0px;
+    color: $theme;
+    .comment {
+        color: lighten($theme, 30%);
+    }
+}
+
+code {
+    word-wrap: break-word;
+    line-height: 2em;
+    font-size: .97em;
+    color: $theme;
+}
+
+code,
+pre {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    background: $bg;
+}
+
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+    color: $c1;
+}
+
+pre .keyword,
+pre .javascript .function {
+    color: $c2;
+}
+
+pre .number,
+pre .preprocessor,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant {
+    color: $c3;
+}
+
+pre .ruby .class .title,
+pre .css .rules .attribute {
+    color: $c4;
+}
+
+pre .title,
+pre .css .hexcolor {
+    color: $c5;
+}
+
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata {
+    color: $c6;
+}
+
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+    color: $c7;
+}
+
+@media screen and (max-width:782px) {
+    figure {
+        width: 110%;
+        margin-left: -5%;
+    }
+    pre {
+        font-size: 1.2rem;
+        line-height: 18px;
+        padding: 10px;
+    }
+    code {
+        font-size: 16px;
+        line-height: 1.9em;
+    }
+}

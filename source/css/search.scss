@@ -23,20 +23,7 @@
 #local-search-input:focus:-ms-input-placeholder{
     color: #fff;
 }
-.navbar {
-    flex-direction: column;
-}
-.navbar, .navbar-header, .navbar-nav, .local-search-result, .nav-container{
-    display: flex;
-}
-.nav-container {
-    justify-content: space-between;
-    flex-direction: row;
-    width: 100%;
-}
-.navbar-left, .navbar-right {
-    flex-grow: 0;
-}
+
 #local-search-result {
     left: 15%;
     top: 50px;
@@ -75,22 +62,4 @@
     #site_search, #local-search-result {
         display: none;
     }
-    .nav-container {
-        padding: 0;
-    }
-    .navbar-nav {
-        margin: 0;
-    }
-    .navbar-nav>li>a {
-        padding-top: 15px;
-    }
-    .navbar-left {
-        flex-grow: 1.35;
-        justify-content: space-around;
-    }
-    .navbar-right {
-        flex-grow: 1;
-        justify-content: space-around;
-    }
-
 }

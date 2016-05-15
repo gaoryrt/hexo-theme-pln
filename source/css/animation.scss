@@ -1,0 +1,44 @@
+@mixin transformY($px: 0) {
+    -webkit-transform: translateY($px);
+    -moz-transform: translateY($px);
+    -ms-transform: translateY($px);
+    -o-transform: translateY($px);
+    transform: translateY($px);
+}
+
+.dropdown-toggle,
+.dropdown-menu,
+.open,
+a,
+a:hover,
+a:focus {
+    transition: .2s ease-in-out;
+}
+
+.index-title,
+.excerpt,
+.index-meta,
+.dropdown-content {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.index-title,
+.index-meta,
+.dropdown-content,
+.excerpt {
+    @include transformY(1px);
+    opacity: 0;
+}
+
+.excerpt.animation,
+.index-title.animation,
+.index-meta.animation,
+.dropdown-content.open {
+    visibility: visible;
+    @include transformY;
+    opacity: 1;
+}

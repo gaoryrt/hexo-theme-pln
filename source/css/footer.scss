@@ -1,0 +1,41 @@
+@mixin tran($dg: 270deg) {
+    -webkit-transform: rotate($dg);
+    -moz-transform: rotate($dg);
+    -o-transform: rotate($dg);
+}
+
+.right-foot {
+    font-family: 'Pacifico', cursive;
+    position: fixed;
+    z-index: 0;
+    bottom: 420px;
+    left: 50%;
+    @include tran;
+    writing-mode: lr-tb;
+}
+
+.firstrow,
+.secondrow {
+    display: inline-block;
+}
+
+@media screen and (max-width:782px) {
+    .right-foot {
+        font-size: 26px;
+        line-height: 35px;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30px;
+        @include tran(0);
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    i.fa-arrow-right {
+        @include tran;
+    }
+    .firstrow,
+    .secondrow {
+        display: block;
+    }
+}
