@@ -11,6 +11,17 @@ $theme: #2570a1;
 $para: #555;
 $lighter: #adadad;
 
+::selection {
+    background:lighten($theme, 40%);
+}
+
+::-moz-selection {
+    background:lighten($theme, 40%);
+}
+
+::-webkit-selection {
+    background:lighten($theme, 40%);
+}
 
 h1,
 h2,
@@ -52,7 +63,7 @@ h6 {
 
 body,
 .archive-time {
-    font-family: 'Hiragino Sans GB', 'Lucida Sans Unicode', 'WenQuanYi Micro Hei', Verdana, Aril, sans-serif;
+    font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
     background-color: $background;
 }
 
@@ -90,7 +101,7 @@ a:focus {
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 2em;
     padding: 10px 0;
     letter-spacing: .6px;
@@ -98,7 +109,7 @@ p {
 }
 
 .post li {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 2em;
     letter-spacing: .5px;
     list-style-type: disc;
@@ -189,13 +200,23 @@ table {
     width: 100%;
 }
 
+img, object, video, iframe {
+    max-width: 110%;
+}
+
 iframe {
     min-width: 100%;
     min-height: 400px;
 }
 
 img {
-    max-width: 100%;
+    display: block;
+    height: auto;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .busuanzi {
