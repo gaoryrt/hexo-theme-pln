@@ -7,7 +7,7 @@ A plain theme for hexo
 ![tags](/screenShots/ver1.0-tags.jpg)
 ![article](/screenShots/ver1.0-article.jpg)
 ![dropdown](/screenShots/ver1.0-dropdown.jpg)
-*screen shots capcured at 2016-05-14, ver1.0*
+*screenshots capcured at 2016-05-14, ver1.0*
 ***
 # Install
 Execute the following command under your `hexo` folder.
