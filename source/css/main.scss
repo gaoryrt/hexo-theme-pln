@@ -89,6 +89,9 @@ p,
     font-size: 1.5em;
 }
 
+.busuanzi, .behind, .dropdown-content, .meta {
+    -webkit-font-smoothing: antialiased;
+}
 a,
 a:hover,
 a:focus {
@@ -143,9 +146,11 @@ li {
 
 .meta {
     font-size: 15px;
-    line-height: 20px;
-    padding-bottom: 30px;
     color: $lighter;
+    padding-top: 13px;
+    a {
+        color: lighten($theme, 10%);
+    }
 }
 
 .black-color {
@@ -233,7 +238,7 @@ img {
         display: none;
     }
     .behind {
-        padding: 14px 0;
+        padding: 3px 0;
         opacity: 0;
     }
     .container {
