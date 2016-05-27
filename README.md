@@ -83,10 +83,10 @@ footer_info: **black words fixed on the right end**
 - `2016-05-04`: new footer rule, .behind layout upgrade
 - `2016-05-06`: upgrade cssstyle, button filter bug fix
 - `2016-05-08`: upgrade js ?: operator，fasten loading speed, busuanzi added
-
-***
+- ------------ VERSION 1.0 ------------
 - `2016-05-14`: pln ver1.0, searching function is loading
 - `2016-05-15`: css -> SCSS (`sass --style compressed main.scss:m.min.css`), footer wrap bug fix
+- `2016-05-27`: more pln in `behind`, `busuanzi`, `meta`, `afterfooter`
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
