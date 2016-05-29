@@ -1,4 +1,4 @@
-$bg: #eee;
+$bg: #eaeaea;
 $theme: #555;
 $c1: #547ab2;
 $c2: #547ab2;
@@ -16,6 +16,11 @@ td.gutter {
     width: 50px;
 }
 
+code,
+pre {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
 pre {
     font-size: 1.5rem;
     line-height: 2em;
@@ -23,7 +28,11 @@ pre {
     padding: 15px;
     border: 0;
     border-radius: 0px;
+    tab-size: 4;
     color: $theme;
+    background-size: auto 4em;
+    background-origin: content-box;
+    background-image: linear-gradient($bg 50%, transparent 0);
     .comment {
         color: lighten($theme, 30%);
     }
@@ -34,13 +43,10 @@ code {
     line-height: 2em;
     font-size: .97em;
     color: $theme;
-}
-
-code,
-pre {
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
     background: $bg;
 }
+
+
 
 pre .variable,
 pre .attribute,
@@ -110,9 +116,9 @@ pre .coffeescript .title {
         font-size: 1.2rem;
         line-height: 18px;
         padding: 10px;
+        background-size: auto 36px;
     }
     code {
-        font-size: 16px;
         line-height: 1.9em;
     }
 }
