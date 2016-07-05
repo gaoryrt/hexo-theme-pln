@@ -89,6 +89,7 @@ footer_info: **black words fixed on the right end**
 - `2016-05-27`: more pln in `behind`, `busuanzi`, `meta`, `afterfooter`
 - `2016-05-29`: `h2 > code` style bug fixed
 - `2016-07-03`: https web-font bug fix
+- `2016-07-05`: search added
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

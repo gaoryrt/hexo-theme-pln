@@ -1,4 +1,5 @@
 <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="/js/search.js"></script>
 <script type="text/javascript">
 
 // comments below to disable loading animation
@@ -41,4 +42,9 @@ $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, 500);
   return false;
 });
+
+
+var path = "/search.xml";
+searchFunc(path, 'local-search-input', 'local-search-result');
+
 </script>
