@@ -1,5 +1,8 @@
-prev: PREV
-next: NEXT
+prev: 上一页
+next: 下一页
 archive_title: 归档
 page_counter: 该分类共 %d 篇文章
 read_more: 更多
+page_read: 页阅读量
+site_read: 站访问量
+site_visitor: 站访客数
