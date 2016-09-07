@@ -25,15 +25,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico);
 @import url(https://fonts.gmirror.org/css?family=Open+Sans+Condensed:300,700|Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico);
 
 .index-title, .navbar-brand, .section-year, .archive-title, .pager {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 body {
-    font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     background-color: $background;
 }
 
@@ -153,12 +153,19 @@ article {
 }
 
 blockquote {
-    margin: 10px 0;
+    margin: 30px 0;
     font-style: italic;
-    line-height: 1.48;
     padding: 0;
     padding-left: 3rem;
+    border: 0;
+    p {
+        color: #333;
+        line-height: 1.48;
+        font-size: 1.2em;
+    }
 }
+
+
 
 table {
     width: 100%;
@@ -170,7 +177,6 @@ img, object, video, iframe {
 
 iframe {
     min-width: 100%;
-    min-height: 400px;
 }
 
 img {
