@@ -176,13 +176,11 @@ img, object, video, iframe {
 }
 
 iframe {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
     min-width: 100%;
 }
 
 img {
+    margin-top: 30px;
     display: block;
     height: auto;
     position: relative;
