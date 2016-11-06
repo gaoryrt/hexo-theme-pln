@@ -2,7 +2,6 @@
 A plain theme for hexo  
 同时也是一个纯文字友好的Hexo主题。  
 **喜欢的用，不喜欢就别用。**  
-[demo](http://gaoryrt.com)  
 ![index](/screenShots/ver1.0-index.jpg)
 ![tags](/screenShots/ver1.0-tags.jpg)
 ![article](/screenShots/ver1.0-article.jpg)
@@ -94,6 +93,7 @@ footer_info: **black words fixed on the right end**
 - `2016-08-08`: apple-touch-icon added
 - `2016-08-18`: font update
 - `2016-08-29`: i18n: en
+- `2016-11-06`: Bug fix: the tab bar can not be scrolled when there are too many tabs. 增加了分享到微信朋友圈的图片，需要将 wx_share.png 的一张 大于 300*300 的图片放在根目录（public）下。
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
