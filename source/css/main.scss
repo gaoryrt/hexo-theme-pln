@@ -175,12 +175,7 @@ img, object, video, iframe {
     max-width: 110%;
 }
 
-iframe {
-    min-width: 100%;
-}
-
-img {
-    margin-top: 30px;
+iframe, img {
     display: block;
     height: auto;
     position: relative;
