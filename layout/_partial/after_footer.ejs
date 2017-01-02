@@ -2,19 +2,6 @@
 <script src="/js/search.js"></script>
 <script type="text/javascript">
 
-// comments below to disable loading animation
-function revealOnScroll() {
-  var scrolled = $(window).scrollTop();
-  $(".excerpt, .index-title, .index-meta, p").each(function() {
-    var current = $(this),
-      height = $(window).outerHeight(),
-      offsetTop = current.offset().top;
-    (scrolled + height + 50 > offsetTop) ? current.addClass("animation"):'';
-  });
-}
-$(window).on("scroll", revealOnScroll);
-$(document).ready(revealOnScroll)
-
 // disqus scripts
 <% if (config.disqus_shortname){ %>
 var disqus_shortname = '<%= config.disqus_shortname %>';
@@ -36,13 +23,6 @@ $(".dropdown").click(function(event) {
 $(document).click(function(){
     $(".dropdown-content").removeClass("open");
 })
-
-// back to top scripts
-$("a[href='#top']").click(function() {
-  $("html, body").animate({ scrollTop: 0 }, 500);
-  return false;
-});
-
 
 var path = "/search.xml";
 searchFunc(path, 'local-search-input', 'local-search-result');

@@ -15,9 +15,6 @@ a:focus {
     transition: .2s ease-in-out;
 }
 
-.index-title,
-.excerpt,
-.index-meta,
 .dropdown-content {
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
@@ -26,17 +23,11 @@ a:focus {
     transition: all .3s ease-out;
 }
 
-.index-title,
-.index-meta,
-.dropdown-content,
-.excerpt {
+.dropdown-content {
     @include transformY(1px);
     opacity: 0;
 }
 
-.excerpt.animation,
-.index-title.animation,
-.index-meta.animation,
 .dropdown-content.open {
     visibility: visible;
     @include transformY;

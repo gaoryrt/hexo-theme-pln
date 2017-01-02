@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
-@import url(https://fonts.gmirror.org/css?family=Open+Sans+Condensed:300,700|Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico);
 
 .index-title, .navbar-brand, .section-year, .archive-title, .pager, .page-title {
@@ -171,11 +170,15 @@ table {
     width: 100%;
 }
 
-img, object, video, iframe {
+img, object, video {
     max-width: 110%;
 }
 
-iframe, img {
+iframe {
+    max-width: 100%;
+}
+
+img {
     display: block;
     height: auto;
     position: relative;
