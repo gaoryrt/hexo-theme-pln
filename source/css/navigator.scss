@@ -99,7 +99,7 @@ $bordr: #eee;
         overflow-y: auto;
         flex-direction: column;
         width: 100%;
-        max-height: 100%;
+        min-height: 100%;
         text-align: center;
         justify-content: center;
         li {
