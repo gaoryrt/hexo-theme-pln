@@ -21,18 +21,28 @@ $lighter: #adadad;
     background: lighten($theme, 40%);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 600;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico);
 
-.index-title, .navbar-brand, .section-year, .archive-title, .pager, .page-title {
-    font-family: 'Open Sans Condensed', sans-serif;
+.index-title,
+.navbar-brand,
+.section-year,
+.archive-title,
+.pager,
+.page-title {
+    font-family: 'Open Sans Condensed', Helvetica Neue, Helvetica, PingFang SC, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
 }
 
 body {
-    font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: PingFang SC, Helvetica Neue, Helvetica, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
     background-color: $background;
 }
 
@@ -40,23 +50,38 @@ body {
     background-color: $background;
 }
 
-.index-title, .archive-link, .dropdown-content, .index-meta, .current {
+.index-title,
+.archive-link,
+.dropdown-content,
+.index-meta,
+.current {
     font-weight: 700 !important;
 }
 
-p, .excerpt, .behind, .meta, .post li {
+p,
+.excerpt,
+.behind,
+.meta,
+.post li {
     font-weight: 300;
 }
 
-.navbar-brand, .right-foot, .pager {
+.navbar-brand,
+.right-foot,
+.pager {
     font-size: 1.5em;
 }
 
-.busuanzi, .behind, .dropdown-content, .meta {
+.busuanzi,
+.behind,
+.dropdown-content,
+.meta {
     -webkit-font-smoothing: antialiased;
 }
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
     color: $theme;
 }
 
@@ -98,7 +123,11 @@ li {
     left: 5%;
 }
 
-.center, .behind, .archive-title, .archive-num, .picture-container {
+.center,
+.behind,
+.archive-title,
+.archive-num,
+.picture-container {
     text-align: center;
 }
 
@@ -170,7 +199,9 @@ table {
     width: 100%;
 }
 
-img, object, video {
+img,
+object,
+video {
     max-width: 110%;
 }
 
@@ -196,7 +227,9 @@ img {
 }
 
 @media screen and (max-width:782px) {
-    .back, li.archives, .busuanzi {
+    .back,
+    li.archives,
+    .busuanzi {
         display: none;
     }
     .behind {
@@ -206,10 +239,14 @@ img {
     .container {
         padding: 0;
     }
-    .standard, .archive, .archive-title, #disqus_thread {
+    .standard,
+    .archive,
+    .archive-title,
+    #disqus_thread {
         padding: 0 7%;
     }
-    p, .post li {
+    p,
+    .post li {
         font-size: 16px;
         line-height: 1.9em;
     }
