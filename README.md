@@ -94,7 +94,7 @@ footer_info: **black words fixed on the right end**
 - `2016-08-29`: i18n: en
 - `2016-11-06`: Bug fix: the tab bar can not be scrolled when there are too many tabs. 增加了分享到微信朋友圈的图片，需要将一张名为 wx_share.png 的 大于 300*300 的图片放在根目录（public）下。
 - `2017-02-04`: dropdown-content css upgrade
-- `2017-08-27`: remove wx_share.png
+- `2017-08-27`: remove wx_share.png; remove fontawesome, use inline SVG
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

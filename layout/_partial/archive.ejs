@@ -8,9 +8,14 @@ if (page.archive){
 
 <h1 class="archive-title <% if (page.tag){ %> tag<% } else if (page.category){ %> category<% } %>">
   <% if (page.archive) { %>
-  <i class="fa fa-archive"></i>
+  <svg class="i-archive" viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M4 10 L4 28 28 28 28 10 M2 4 L2 10 30 10 30 4 Z M12 15 L20 15"></path>
+  </svg>
   <% } else { %>
-  <i class="fa fa-tag"></i>
+  <svg class="i-tag" viewBox="0 0 32 32" width="26" height="26" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <circle cx="24" cy="8" r="2"></circle>
+    <path d="M2 18 L18 2 30 2 30 14 14 30 Z"></path>
+  </svg>
   <% } %>
   <%= title %>
 </h1>

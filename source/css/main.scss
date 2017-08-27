@@ -5,10 +5,10 @@
 @import "footer";
 @import "code";
 @import "animation";
-$background: #fcfcfc;
+$background: #fdfdfc;
 $theme: #2570a1;
 $para: #555;
-$lighter: #adadad;
+$lighter: #9c9c9c;
 ::selection {
     background: lighten($theme, 40%);
 }
@@ -27,8 +27,16 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+    font-weight: bold;
+    margin: 2.36em 0 1em;
+    font-size: 1.79em;
+    color: #1a1a1a;
 }
+
+h1 {
+    font-size: 2.36em;
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Pacifico);
 
@@ -42,8 +50,13 @@ h6 {
 }
 
 body {
-    font-family: PingFang SC, Helvetica Neue, Helvetica, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
+    font-size: 14px;
+    font-family: PingFang HK, Helvetica Neue, Helvetica, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
     background-color: $background;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .archive-time {
@@ -63,7 +76,7 @@ p,
 .behind,
 .meta,
 .post li {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .navbar-brand,
@@ -76,13 +89,14 @@ p,
 .behind,
 .dropdown-content,
 .meta {
-    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
 }
 
 a,
 a:hover,
 a:focus {
     color: $theme;
+
 }
 
 .container {
@@ -92,10 +106,17 @@ a:focus {
 
 p {
     font-size: 18px;
-    line-height: 2em;
-    padding: 10px 0;
+    line-height: 1.78;
+    margin: .7em 0;
     letter-spacing: .6px;
     color: $para;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    // font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-indent: 2em;
 }
 
 .post li {
@@ -112,15 +133,18 @@ li {
 
 .behind {
     font-size: 22px;
-    padding: 22px 0;
-    letter-spacing: 2px;
+    padding: 28px 0 0;
+    word-spacing: 2px;
     color: $lighter;
+    line-height: 1;
 }
 
 .back {
     position: fixed;
-    top: 18px;
+    top: 28px;
     left: 5%;
+    height: 22px;
+    width: 22px;
 }
 
 .center,
@@ -187,8 +211,9 @@ blockquote {
     padding-left: 3rem;
     border: 0;
     p {
-        color: #333;
-        line-height: 1.48;
+        color: #1a1a1a;
+        text-indent: 0;
+        line-height: 1.6;
         font-size: 1.2em;
     }
 }
@@ -224,6 +249,11 @@ img {
     line-height: 14px;
     margin: 30px 0;
     color: #CDD2D4;
+}
+
+.index-meta * {
+    vertical-align: top;
+    line-height: 1;
 }
 
 @media screen and (max-width:782px) {

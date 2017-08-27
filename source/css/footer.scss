@@ -17,6 +17,8 @@
 .firstrow,
 .secondrow {
     display: inline-block;
+    line-height: 1;
+    vertical-align: top;
 }
 
 @media screen and (max-width:782px) {
@@ -30,7 +32,7 @@
         @include tran(0);
         text-align: center;
     }
-    i.fa-arrow-right {
+    .i-caret-right {
         @include tran;
     }
     .firstrow,

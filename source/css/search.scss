@@ -1,6 +1,6 @@
 #site_search {
     display: flex;
-    margin: 8px;
+    margin: 9px 0 7px;
     flex-grow: 1;
 }
 
@@ -9,7 +9,7 @@
     -webkit-box-shadow: inset 0 0 1px #aaa;
     -moz-box-shadow: inset 0 0 1px #aaa;
     box-shadow: inset 0 0 1px #aaa;
-    background: #fcfcfc;
+    background: #fdfdfc;
 }
 
 #local-search-input:focus {

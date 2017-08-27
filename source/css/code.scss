@@ -36,6 +36,9 @@ pre {
     .comment {
         color: lighten($theme, 30%);
     }
+    .line {
+        height: 30px;
+    }
 }
 
 code {

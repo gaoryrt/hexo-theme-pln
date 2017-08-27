@@ -1,6 +1,13 @@
 $bg: #fff;
 $bordr: #eee;
 
+.navigator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .navbar {
     background-color: $bg;
     flex-direction: column;
@@ -28,6 +35,11 @@ $bordr: #eee;
 .navbar-left,
 .navbar-right {
     flex-grow: 0;
+}
+
+.dropdown-toggle,
+.archives {
+    height: 52px;
 }
 
 .dropdown-content {
