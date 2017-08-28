@@ -99,11 +99,6 @@ a:focus {
 
 }
 
-.container {
-    max-width: 850px;
-    padding: 0 5%;
-}
-
 p {
     font-size: 18px;
     line-height: 1.78;
@@ -256,7 +251,7 @@ img {
     line-height: 1;
 }
 
-@media screen and (max-width:782px) {
+@media screen and (max-width:768px) {
     .back,
     li.archives,
     .busuanzi {
@@ -265,9 +260,6 @@ img {
     .behind {
         padding: 12px 0;
         opacity: 0;
-    }
-    .container {
-        padding: 0;
     }
     .standard,
     .archive,
@@ -285,5 +277,11 @@ img {
     }
     .post ul {
         margin-left: -10px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 58%;
     }
 }
