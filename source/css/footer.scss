@@ -1,4 +1,7 @@
 @mixin tran($dg: 270deg) {
+
+
+    transform: rotate($dg);
     -webkit-transform: rotate($dg);
     -moz-transform: rotate($dg);
     -o-transform: rotate($dg);
@@ -8,10 +11,16 @@
     font-family: 'Pacifico', Helvetica Neue, Helvetica, PingFang SC, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
     position: fixed;
     z-index: 0;
-    bottom: 56%;
-    left: 56%;
-    @include tran;
-    writing-mode: lr-tb;
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -o-transform-origin: top right;
+    bottom: 0%;
+    right: calc(50% - 391px);
+    transform: rotate(270deg) translateX(100%);
+    -webkit-transform: rotate(270deg) translateX(100%);
+    -moz-transform: rotate(270deg) translateX(100%);
+    -o-transform: rotate(270deg) translateX(100%);
 }
 
 .firstrow,
@@ -28,7 +37,7 @@
         position: relative;
         bottom: 0;
         left: 0;
-        margin-bottom: 30px;
+        margin: 20px 0 30px;
         @include tran(0);
         text-align: center;
     }
