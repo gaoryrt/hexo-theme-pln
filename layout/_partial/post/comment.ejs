@@ -1,19 +1,49 @@
-<% if (!index && theme.disqus_shortname){ %>
-<div id="disqus_thread"></div>
-<script>
+<% if(!index){ %>
+    <% if(theme.disqus_shortname){ %>
+        <div id="disqus_thread"></div>
+        <script>
 
-var disqus_config = function () {
-this.page.url = '<%= url %>';
-this.page.identifier = <%= item.id %>;
-};
+        var disqus_config = function () {
+        this.page.url = '<%= url %>';
+        this.page.identifier = <%= item.id %>;
+        };
 
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
 
-s.src = '//<%- theme.disqus_shortname%>.disqus.com/embed.js';
+        s.src = '//<%- theme.disqus_shortname%>.disqus.com/embed.js';
 
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+    <% } else if(theme.valine && theme.valine.enable){ %>
+        <style>
+        .vcard .vimg{left:0;}
+        </style>
+        <div id="vcomment" class="vcomment" style="padding:0 6% 0 7%;"></div>
+        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+        <script>
+            var GUEST_INFO = ['nick','mail','link'];
+            var guest_info = '<%= theme.valine.guest_info %>'.split(',').filter(function(item){
+                return GUEST_INFO.indexOf(item) > -1
+            });
+            var notify = '<%= theme.valine.notify %>' == true;
+            var verify = '<%= theme.valine.verify %>' == true;
+            var valine = new Valine();
+            valine.init({
+                el: '.vcomment',
+                notify: notify,
+                verify: verify,
+                appId: "<%= theme.valine.appId %>",
+                appKey: "<%= theme.valine.appKey %>",
+                placeholder: "<%= theme.valine.placeholder %>",
+                pageSize:'<%= theme.valine.pageSize %>',
+                avatar:'<%= theme.valine.avatar %>',
+                lang:'<%= theme.valine.lang %>'
+            })
+        </script>
+    <% } %>
 <% } %>
+
