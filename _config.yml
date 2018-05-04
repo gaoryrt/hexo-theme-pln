@@ -16,7 +16,7 @@ about:
   title: Theme Pln
   link: https://github.com/gaoryrt/hexo-theme-pln
 
-disqus_shortname:
+show_toc_bool: true
 
 # If you want to use valine,you should get the appId and appKey form https://leancloud.cn ,more setting please see https://valine.js.org
 valine:
@@ -28,10 +28,10 @@ valine:
   avatar: mm # gravatar style https://valine.js.org/avatar
   pageSize: 10 # comment list page size
   verify: false # valine verify code (true/false)
-  notify: false # valine mail notify (true/false) 
+  notify: false # valine mail notify (true/false)
   lang: zh-cn
 
-  
+
 excerpt_num: 120
 
 footer_info: © XXX 20xx-2017

@@ -28,7 +28,9 @@
       <%- partial('post/meta', {item: item}) %>
     </div>
     <hr>
-    <%- toc(page.content, {list_number: false}) %>
+    <% if (theme.show_toc_bool) {  %>
+      <%- toc(page.content, {list_number: false}) %>
+    <% } %>
     <div class="picture-container">
       <% if (item.photos && item.photos.length){ %>
         <%- partial('post/gallery', {item: item}) %>

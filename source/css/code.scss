@@ -1,4 +1,4 @@
-$bg: #eaeaea;
+$bg: #F1F3F5;
 $theme: #555;
 $c1: #547ab2;
 $c2: #547ab2;
@@ -30,6 +30,7 @@ pre {
     border-radius: 0px;
     tab-size: 4;
     color: $theme;
+    background: transparent;
     background-size: auto 4em;
     background-origin: content-box;
     background-image: linear-gradient($bg 50%, transparent 0);

@@ -42,17 +42,6 @@
 // 小屏幕
 @media screen and (max-width:1200px) {
   .toc {
-    position: relative;
-    width: 100%;
-    transform: none;
-    text-align: left;
+    display: none;
   }
-
 }
-
-// @media (min-width: 768px) {
-//   .toc {
-//     width: calc(50% - 750px / 2);
-//     background: yellow;
-//   }
-// }
