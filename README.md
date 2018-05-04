@@ -96,6 +96,7 @@ footer_info: **black words fixed on the right end**
 - `2017-02-04`: dropdown-content css upgrade
 - `2017-08-27`: remove wx_share.png; remove fontawesome, use inline SVG
 - `2018-02-03`: support TOC, finally
+- `2018-05-04`: optional TOC; Fixed #27
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
