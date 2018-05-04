@@ -1,20 +1,18 @@
 .toc {
   position: fixed;
   top: 50%;
-  left: 0;
+  left: calc(50% - 391px);
   text-align: right;
-  transform: translateY(-50%);
+  transform: translate(-100%, -50%);
   padding: 4em 0;
   padding-right: 2em;
   overflow: auto;
   max-height: 100%;
-  width: calc(50% - 391px);
 }
 
 .toc-text {
-  filter: grayscale(1);
-  opacity: .5;
-  transition: filter .3s, opacity .3s;
+  color: #ACACAB;
+  transition: color .3s;
 }
 
 .toc-level-1 .toc-text,
@@ -30,9 +28,7 @@
 }
 
 .toc:hover .toc-text {
-  opacity: 1;
   color: #2570a1;
-  filter: grayscale(0)
 }
 
 .toc ol, ul {
