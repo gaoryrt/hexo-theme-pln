@@ -126,22 +126,22 @@ p {
     text-justify: auto;
 }
 
-.post li {
+.post ul li {
     line-height: 2em;
     color: lighten($para, 10%);
 }
 
-.post li:before {
+.post ul li:before {
     content: '·';
     margin-right: .4em;
 }
 
-li {
+ul li {
     list-style-type: none;
     list-style: none;
 }
 
-ol, ul {
+ul {
     padding-left: 1em;
 }
 
