@@ -1,5 +1,5 @@
 <script src="//cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
-<script src="/js/search.min.js"></script>
+<script src="<%- config.root %>js/search.min.js"></script>
 <script type="text/javascript">
 
 // disqus scripts
@@ -24,7 +24,7 @@ $(document).click(function(){
     $(".dropdown-content").removeClass("open");
 })
 
-var path = "/search.xml";
+var path = "<%- config.root %>search.xml";
 searchFunc(path, 'local-search-input', 'local-search-result');
 
 </script>

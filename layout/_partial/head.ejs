@@ -30,8 +30,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:site_name" content="<%= config.title %>"/>
   <link href="/apple-touch-icon-precomposed.png" sizes="180x180" rel="apple-touch-icon-precomposed">
-  <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
+  <link rel="alternate" href="<% if (theme.rss){ %><%- config.root %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
   <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/m.min.css">
+  <link rel="stylesheet" href="<%- config.root %>css/m.min.css">
   <link rel="icon" type="image/x-icon" href="<%- config.root %>favicon.ico">
 </head>
