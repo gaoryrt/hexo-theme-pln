@@ -76,15 +76,15 @@ footer_info: **black words fixed on the right end**
 
 # Issues
 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.
+
 欢迎您对本项目提供和意见和建议。
+
 (请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
 
-***
-
 # FAQ
-[启用搜索功能](https://github.com/gaoryrt/hexo-theme-pln/issues/9#issuecomment-242401562)
-[启用 Latex](https://github.com/gaoryrt/hexo-theme-pln/issues/33)
-[只有分类没有 tag 吗](https://github.com/gaoryrt/hexo-theme-pln/issues/35)
+- [启用搜索功能](https://github.com/gaoryrt/hexo-theme-pln/issues/9#issuecomment-242401562)
+- [启用 Latex](https://github.com/gaoryrt/hexo-theme-pln/issues/33)
+- [只有分类没有 tag 吗](https://github.com/gaoryrt/hexo-theme-pln/issues/35)
 
 ***
 
