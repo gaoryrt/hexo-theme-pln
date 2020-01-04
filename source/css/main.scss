@@ -127,13 +127,16 @@ p {
 }
 
 .post ul li {
+    position: relative;
     line-height: 2em;
     color: lighten($para, 10%);
 }
 
 .post ul li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
     content: '·';
-    margin-right: .4em;
 }
 
 ul li,
@@ -143,7 +146,7 @@ ul li,
 }
 
 ul {
-    padding-left: 1em;
+    padding-inline-start: 40px;
 }
 
 .behind {
