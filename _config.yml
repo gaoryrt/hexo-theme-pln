@@ -34,6 +34,6 @@ valine:
 
 excerpt_num: 120
 
-footer_info: © XXX 20xx-2017
+footer_info: © XXX 2016-2020
 
-latex: false
+latex: true

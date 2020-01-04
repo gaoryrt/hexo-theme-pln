@@ -11,6 +11,8 @@ $bordr: #eee;
 .navbar {
     background-color: $bg;
     flex-direction: column;
+    border: 0 !important;
+    box-shadow: 0 0 8px rgba(209, 205, 199, .5);
 }
 
 .navbar-right .dropdown-content {
@@ -52,8 +54,9 @@ $bordr: #eee;
     width: 220px;
     margin: 0;
     padding: 0;
-    border: 1px solid $bordr;
     background-color: $bg;
+    box-shadow: 0 0 8px rgba(209, 205, 199, .5);
+    clip-path: polygon(-100% .5px, 200% .5px, 200% 200%, -100% 200%);
     li {
         border-bottom: 1px solid $bordr;
         a {
@@ -104,7 +107,7 @@ $bordr: #eee;
     }
     .dropdown-content {
         position: fixed;
-        z-index: 1;
+        z-index: 99;
         top: 0;
         left: 0;
         display: flex;
@@ -117,5 +120,11 @@ $bordr: #eee;
         li {
             border-bottom: 0 solid $bordr;
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-right: 0;
     }
 }

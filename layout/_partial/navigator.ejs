@@ -2,7 +2,7 @@
   <div class="nav-container">
 
 
-  <ul class="nav navbar-nav navbar-left">
+  <div class="nav navbar-nav navbar-left">
     <li class="navbar-header">
       <a href="<%- config.root %>" class="navbar-brand"><%- theme.logo %></a>
     </li>
@@ -29,11 +29,11 @@
     </li>
     <% } %>
 
-  </ul>
+  </div>
   <%- partial('search') %>
 
 
-  <ul class="nav navbar-nav navbar-right">
+  <div class="nav navbar-nav navbar-right">
     <li class="dropdown">
       <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
         <svg class="i-link" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -56,6 +56,6 @@
         <path d="M4 10 L4 28 28 28 28 10 M2 4 L2 10 30 10 30 4 Z M12 15 L20 15"></path>
       </svg>
     </a></li>
-  </ul>
+  </div>
   </div>
 </nav>

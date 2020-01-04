@@ -1,15 +1,15 @@
 #site_search {
     display: flex;
-    margin: 9px 0 7px;
+    margin: 9px 15px 7px;
     flex-grow: 1;
 }
 
 #local-search-input {
-    border: #fff solid 0px;
-    -webkit-box-shadow: inset 0 0 1px #aaa;
-    -moz-box-shadow: inset 0 0 1px #aaa;
-    box-shadow: inset 0 0 1px #aaa;
-    background: #fdfdfc;
+    border: 0;
+    border-radius: 0;
+    background: #fbfbfa;
+    transition: all .2s;
+    box-shadow: inset 3px 3px 8px rgba(209, 205, 199, .25);
 }
 
 #local-search-input:focus {
