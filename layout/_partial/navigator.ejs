@@ -2,11 +2,12 @@
   <div class="nav-container">
 
 
-  <% if (site.categories && site.categories.length){ %>
   <ul class="nav navbar-nav navbar-left">
     <li class="navbar-header">
-      <a href="/" class="navbar-brand"><%- theme.logo %></a>
+      <a href="<%- config.root %>" class="navbar-brand"><%- theme.logo %></a>
     </li>
+    <% if (site.categories && site.categories.length){ %>
+
     <li class="dropdown">
       <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
         <svg class="i-tag" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -14,6 +15,7 @@
           <path d="M2 18 L18 2 30 2 30 14 14 30 Z"></path>
         </svg>
       </span></a>
+
       <ul class="dropdown-content">
 
           <% var categories = [];
@@ -23,9 +25,11 @@
            <%- categories.join('') %>
 
       </ul>
+
     </li>
+    <% } %>
+
   </ul>
-  <% } %>
   <%- partial('search') %>
 
 
@@ -36,6 +40,7 @@
           <path d="M18 8 C18 8 24 2 27 5 30 8 29 12 24 16 19 20 16 21 14 17 M14 24 C14 24 8 30 5 27 2 24 3 20 8 16 13 12 16 11 18 15"></path>
         </svg>
       </a>
+      <base href="<%- config.root %>">
       <ul class="dropdown-content">
         <% for (var i in theme.more){ %>
           <li>
@@ -46,7 +51,7 @@
      <% } %>
     </ul>
     </li>
-    <li class="archives"><a href="/archives">
+    <li class="archives"><a href="<%- config.root %>archives">
       <svg class="i-archive" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
         <path d="M4 10 L4 28 28 28 28 10 M2 4 L2 10 30 10 30 4 Z M12 15 L20 15"></path>
       </svg>
