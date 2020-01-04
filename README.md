@@ -70,8 +70,8 @@ footer_info: **black words fixed on the right end**
 ```
 ***
 # Issues
-[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.  
-欢迎您对本项目提供和意见和建议。  
+[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.
+欢迎您对本项目提供和意见和建议。
 (请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
 ***
 # Changelog
@@ -105,8 +105,9 @@ footer_info: **black words fixed on the right end**
 - `2017-02-04`: dropdown-content css upgrade
 - `2017-08-27`: remove wx_share.png; remove fontawesome, use inline SVG
 - `2018-02-03`: support TOC, finally
-- `2018-05-04`: optional TOC; Fixed #27
+- `2018-05-04`: optional TOC; Fixed [#27](https://github.com/gaoryrt/hexo-theme-pln/issues/27)
 - `2020-01-04`: support deploy site to server subdirectory by [shuiRong](https://github.com/shuiRong)
+- `2020-01-04`: fix [#33](https://github.com/gaoryrt/hexo-theme-pln/issues/33) and [#36](https://github.com/gaoryrt/hexo-theme-pln/issues/36])
 
 # license
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
