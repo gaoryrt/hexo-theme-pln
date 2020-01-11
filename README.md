@@ -10,7 +10,7 @@ A plain, text-friendly Hexo theme
 *screenshots capcures at 2016-05-14, ver1.0*
 ***
 # Install
-Execute the following command of your `hexo` folder.
+Execute the following command in your `hexo` folder.
 
 ```
 git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln
