@@ -1,21 +1,22 @@
 # hexo-theme-pln
-a plain, text-friendly Hexo theme
+A plain, text-friendly Hexo theme
+
 一个纯文字友好的Hexo主题
 
 ![index](/screenShots/ver1.0-index.jpg)
 ![tags](/screenShots/ver1.0-tags.jpg)
 ![article](/screenShots/ver1.0-article.jpg)
 ![dropdown](/screenShots/ver1.0-dropdown.jpg)
-*screenshots capcured at 2016-05-14, ver1.0*
+*screenshots capcures at 2016-05-14, ver1.0*
 ***
 # Install
-Execute the following command under your `hexo` folder.
+Execute the following command of your `hexo` folder.
 
 ```
 git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln
 ```
 
-Then find `theme` in `hexo/_config.yml`, make it looks like this: `theme: pln`
+Then find `theme` in `hexo/_config.yml`, make it look like this: `theme: pln`
 
 # Update
 Execute the following command to update Pln.
@@ -36,8 +37,7 @@ rm -rf pln
 
 请务必修改以下内容。
 
-
-**Always add `subtitle: ` to your `hexo/_config.yml` file to avoid bug.**
+**Always adds `subtitle: ` to your `hexo/_config.yml` to avoid bug.**
 
 ```yml
 subtitle: 'I am subtitle.'
@@ -47,7 +47,7 @@ If your site is put in a subdirectory, set root as '/<your subdirectory>/', for 
 root: ''
 ```
 
-**You should modify `hexo/themes/pln/_config.yml` file before deploy.**
+**You should modify `hexo/themes/pln/_config.yml` file before deploying.**
 
 
 ```yaml
@@ -82,9 +82,9 @@ footer_info: **black words fixed on the right end**
 (请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
 
 # FAQ
-- [启用搜索功能](https://github.com/gaoryrt/hexo-theme-pln/issues/9#issuecomment-242401562)
-- [启用 Latex](https://github.com/gaoryrt/hexo-theme-pln/issues/33)
-- [只有分类没有 tag 吗](https://github.com/gaoryrt/hexo-theme-pln/issues/35)
+- [How to enable search / 启用搜索功能](https://github.com/gaoryrt/hexo-theme-pln/issues/9#issuecomment-242401562)
+- [How to enable Latex / 启用 Latex](https://github.com/gaoryrt/hexo-theme-pln/issues/33)
+- [No tags only categories / 只有分类没有 tag 吗](https://github.com/gaoryrt/hexo-theme-pln/issues/35)
 
 ***
 
@@ -127,6 +127,8 @@ footer_info: **black words fixed on the right end**
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 # donate
+Star this repo or donate to make it better.
 如果你喜欢的话可以 star 或者捐助作者～
+
 [![](https://cdn.buymeacoffee.com/buttons/default-white.png)](https://www.buymeacoffee.com/pT2Y5iN)
 ![](https://jungle.fm/assets/donate.jpg)
