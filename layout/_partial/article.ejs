@@ -1,5 +1,4 @@
-<% if(index){ %>
-<div>
+<% if (index) { %>
 <li class="post-item">
   <%- partial('post/title') %>
   <div class="excerpt">
@@ -16,7 +15,6 @@
     <%- partial('post/meta', {item: item}) %>
   </div>
 </li>
-</div>
 <hr>
 <% } else { %>
 

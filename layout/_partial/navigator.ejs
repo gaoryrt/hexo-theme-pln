@@ -1,14 +1,12 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar">
   <div class="nav-container">
-
-
   <div class="nav navbar-nav navbar-left">
-    <li class="navbar-header">
+    <div class="navbar-header">
       <a href="<%- config.root %>" class="navbar-brand"><%- theme.logo %></a>
-    </li>
+    </div>
     <% if (site.categories && site.categories.length){ %>
 
-    <li class="dropdown">
+    <div class="dropdown">
       <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
         <svg class="i-tag" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <circle cx="24" cy="8" r="2"></circle>
@@ -20,13 +18,13 @@
 
           <% var categories = [];
               site.categories.forEach(function(categorie){
-                  categories.push('<li><a href="' + config.root + categorie.path + '">' + categorie.name + '</a></li>');
+                  categories.push('<div><a href="' + config.root + categorie.path + '">' + categorie.name + '</a></div>');
           });%>
            <%- categories.join('') %>
 
       </ul>
 
-    </li>
+    </div>
     <% } %>
 
   </div>
@@ -34,7 +32,7 @@
 
 
   <div class="nav navbar-nav navbar-right">
-    <li class="dropdown">
+    <div class="dropdown">
       <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
         <svg class="i-link" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
           <path d="M18 8 C18 8 24 2 27 5 30 8 29 12 24 16 19 20 16 21 14 17 M14 24 C14 24 8 30 5 27 2 24 3 20 8 16 13 12 16 11 18 15"></path>
@@ -43,19 +41,19 @@
       <base href="<%- config.root %>">
       <ul class="dropdown-content">
         <% for (var i in theme.more){ %>
-          <li>
+          <div>
             <a href="<%- theme.more[i] %>">
         <%= i %>
       </a>
-    </li>
+    </div>
      <% } %>
     </ul>
-    </li>
-    <li class="archives"><a href="<%- config.root %>archives">
+    </div>
+    <div class="archives"><a href="<%- config.root %>archives">
       <svg class="i-archive" viewBox="0 0 32 32" width="22" height="22" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
         <path d="M4 10 L4 28 28 28 28 10 M2 4 L2 10 30 10 30 4 Z M12 15 L20 15"></path>
       </svg>
-    </a></li>
+    </a></div>
   </div>
   </div>
 </nav>

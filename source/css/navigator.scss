@@ -1,14 +1,12 @@
 $bg: #fff;
 $bordr: #eee;
 
-.navigator {
+.navbar {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
-}
-
-.navbar {
     background-color: $bg;
     flex-direction: column;
     border: 0 !important;
@@ -27,11 +25,28 @@ $bordr: #eee;
     display: flex;
 }
 
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-brand,
+.dropdown-toggle,
+.archives > a {
+    display: block;
+    color: #777;
+    padding: 15px;
+}
+
+.archives > a > svg {
+    display: block;
+}
+
 .nav-container {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
     padding: 0 5%;
+    height: 52px;
 }
 
 .navbar-left,
@@ -39,9 +54,12 @@ $bordr: #eee;
     flex-grow: 0;
 }
 
-.dropdown-toggle,
-.archives {
+.dropdown-toggle {
     height: 52px;
+    svg {
+        height: 22px;
+        width: 22px;
+    }
 }
 
 .dropdown-content {
@@ -57,25 +75,23 @@ $bordr: #eee;
     background-color: $bg;
     box-shadow: 0 0 8px rgba(209, 205, 199, .5);
     clip-path: polygon(-100% .5px, 200% .5px, 200% 200%, -100% 200%);
-    li {
-        border-bottom: 1px solid $bordr;
-        a {
-            display: block;
-            width: 100%;
-            height: 100%;
-            padding: 18px 25px;
-        }
-        a:hover {
-            background: #2570a1;
-            color: #e7e7e7;
-        }
+    border-bottom: 1px solid $bordr;
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 18px 25px;
+    }
+    a:hover {
+        background: #2570a1;
+        color: #e7e7e7;
     }
 }
 
 @media screen and (max-width:782px) {
     .navbar-left {
         order: 0;
-        flex-grow: 1.35;
+        flex-grow: 2;
         justify-content: space-around;
         float: left;
     }
@@ -96,30 +112,23 @@ $bordr: #eee;
         display: flex;
         justify-content: space-around;
     }
-    .navbar-nav .open .dropdown-menu > li > a {
+    .navbar-nav .open .dropdown-menu > a {
         line-height: 40px;
     }
-    .navbar-nav {
-        margin: 0;
-        > li > a {
-            padding-top: 15px;
-        }
-    }
     .dropdown-content {
-        position: fixed;
-        z-index: 99;
+        position: absolute;
         top: 0;
         left: 0;
         display: flex;
-        overflow-y: auto;
         flex-direction: column;
+        max-height: 100vh;
+        height: 100vh;
         width: 100%;
-        min-height: 100%;
         text-align: center;
         justify-content: center;
-        li {
-            border-bottom: 0 solid $bordr;
-        }
+    }
+    .archives {
+        display: none;
     }
 }
 

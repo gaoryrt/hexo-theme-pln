@@ -27,6 +27,7 @@ a.prev:hover {
 }
 
 .pager {
+    margin: 0 52px 32px;
     z-index: 1;
     flex-direction: row;
     justify-content: space-between;
@@ -48,7 +49,7 @@ a.prev:hover {
         position: relative;
         bottom: 0;
         left: 0;
-        margin-bottom: 30px;
+        margin: 0 4px 20px;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
         -o-transform: rotate(0deg);

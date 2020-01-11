@@ -10,6 +10,7 @@ $background: #fdfefe;
 $theme: #2570a1;
 $para: #444;
 $lighter: #9c9c9c;
+$lightest: #cdd2d4;
 $big: 32px;
 $mid: 26px;
 $small: 18px;
@@ -23,6 +24,18 @@ $small: 18px;
 
 ::-webkit-selection {
     background: lighten($theme, 40%);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
 }
 
 h1,
@@ -57,8 +70,16 @@ h4,
 h5,
 h6,
 .toc,
-.busuanzi {
+.index-meta,
+.meta,
+.description,
+.busuanzi,
+.archive-num {
     font-family: 'Open Sans Condensed', Futura, AvenirNext, Avenir, sans-serif;
+}
+
+article,figure,footer,nav,section {
+    display: block
 }
 
 body {
@@ -91,7 +112,6 @@ body {
 
 p,
 .excerpt,
-.behind,
 .meta,
 .post li {
     font-weight: 400;
@@ -108,6 +128,11 @@ p,
 .dropdown-content,
 .meta {
     font-weight: 300;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none
 }
 
 a,
@@ -145,16 +170,29 @@ ul li,
     list-style: none;
 }
 
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
 ul {
     padding-inline-start: 40px;
 }
 
+ul.posts {
+    padding: 52px 52px 0;
+}
+
 .behind {
-    font-size: $mid;
     padding: 28px 0 0;
     word-spacing: 2px;
     color: $lighter;
     line-height: 1;
+    .description {
+        font-size: $mid;
+        color: $lightest;
+        font-weight: 300;
+    }
 }
 
 .back {
@@ -244,15 +282,13 @@ table {
 
 img,
 object,
+iframe,
 video {
-    max-width: 110%;
-}
-
-iframe {
-    display: inline-block;
-    box-sizing: border-box;
-    height: auto;
-    max-width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100vh;
+    max-height: 62vh;
 }
 
 img {
@@ -260,6 +296,7 @@ img {
     height: auto;
     position: relative;
     left: 50%;
+    max-width: 100%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -269,18 +306,18 @@ img {
     font-size: $small;
     line-height: $small;
     margin: 30px 0;
-    color: #CDD2D4;
+    color: $lightest;
 }
 
 .index-meta {
     vertical-align: middle;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .main-ctnr {
-    max-width: 782px;
+    max-width: 750px;
     position: relative;
-    left: calc(50% - 391px)
+    left: calc(50% - 375px)
 }
 
 .standard,
@@ -290,12 +327,30 @@ img {
     padding: 0 6% 0 7%;
 }
 
+.archive-title {
+    padding-top: 52px;
+}
+
 p,
 .post li {
     font-size: $small;
     line-height: 1.9em;
 }
 
+hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee
+}
+
+hr:last-child {
+    border-color: transparent
+}
 
 @media screen and (max-width:782px) {
     .main-ctnr {
@@ -312,6 +367,9 @@ p,
     }
     .archive-title {
         font-size: $big;
+    }
+    ul.posts {
+        padding: 52px 26px 0;
     }
     .post ul {
         margin-left: -10px;

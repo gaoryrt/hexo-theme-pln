@@ -1,20 +1,10 @@
-<% if (!index) {%>
-<time datetime="<%= item.date.toDate().toISOString() %>">
-<svg class="i-calendar" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+<time datetime="<%= date_xml(item.date) %>" itemprop="datePublished">
+  <svg class="i-calendar" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
     <path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9"></path>
   </svg>
   &nbsp;
   <%= item.date.format(config.date_format) %>
 </time>
-<%}else{%>
-<time datetime="<%= date_xml(item.date) %>" itemprop="datePublished">
-<svg class="i-calendar" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-    <path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9"></path>
-  </svg>
-  &nbsp;
-  <%= date(item.date, "MM-DD") %>
-</time>
-<%}%>
 
 <% if (item.categories && item.categories.length){ %>
     <% var cats = [];

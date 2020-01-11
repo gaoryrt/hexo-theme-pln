@@ -7,7 +7,6 @@ $a: #555;
 .index-title {
     font-size: 34px;
     line-height: 32px;
-    padding-right: 1em;
 }
 
 .excerpt {
@@ -16,7 +15,6 @@ $a: #555;
     padding: 10px 0;
     letter-spacing: .6px;
     color: $a;
-    width: 88%;
 }
 
 .index-meta {
@@ -24,9 +22,9 @@ $a: #555;
 }
 
 @media screen and (max-width:782px) {
-    .index-title {
-        width: 80%;
-    }
+    // .index-title {
+    //     width: 80%;
+    // }
     .excerpt {
         font-size: 16px;
         line-height: 1.9em;

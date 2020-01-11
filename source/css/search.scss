@@ -5,11 +5,20 @@
 }
 
 #local-search-input {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    line-height: 1.43;
+    color: #555;
+    font-size: 14px;
     border: 0;
     border-radius: 0;
     background: #fbfbfa;
     transition: all .2s;
     box-shadow: inset 3px 3px 8px rgba(209, 205, 199, .25);
+    &:focus {
+        outline: 0;
+    }
 }
 
 #local-search-input:focus {
