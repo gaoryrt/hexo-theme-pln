@@ -12,7 +12,7 @@ A plain, text-friendly Hexo theme
 ![dropdown](/screenShots/ver1.0-dropdown.jpg)
 *screenshots capcures at 2016-05-14, ver1.0*
 ***
-# Install
+## Install
 Execute the following command in your `hexo` folder.
 
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln
 
 Then find `theme` in `hexo/_config.yml`, make it look like this: `theme: pln`
 
-# Update
+## Update
 Execute the following command to update Pln.
 
 ```
@@ -29,14 +29,14 @@ cd themes/pln
 git pull
 ```
 
-# Uninstall
+## Uninstall
 Execute the following command to uninstall Pln.
 ```
 cd themes
 rm -rf pln
 ```
 ***
-# After install
+## After install
 
 请务必修改以下内容。
 
@@ -77,21 +77,23 @@ footer_info: **black words fixed on the right end**
 
 ***
 
-# Issues
+## Issues
 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.
 
 欢迎您对本项目提供和意见和建议。
 
 (请直接提issue，或在[微博](http://weibo.com/R1T1AN)上私信，一般回复时间不超过12小时)
 
-# FAQ
+## FAQ
 - [How to enable search / 启用搜索功能](https://github.com/gaoryrt/hexo-theme-pln/issues/9#issuecomment-242401562)
 - [How to enable Latex / 启用 Latex](https://github.com/gaoryrt/hexo-theme-pln/issues/33)
 - [No tags only categories / 只有分类没有 tag 吗](https://github.com/gaoryrt/hexo-theme-pln/issues/35)
 
 ***
 
-# Changelog
+## Changelog
+
+<details><summary>UNFOLD ALL</summary>
 - `2016-04-12`: init
 - `2016-04-13`: disqus showing same comments bug fix
 - `2016-04-13`: read more link add
@@ -125,8 +127,9 @@ footer_info: **black words fixed on the right end**
 - `2018-05-04`: optional TOC; Fixed [#27](https://github.com/gaoryrt/hexo-theme-pln/issues/27)
 - `2020-01-04`: support deploy site to server subdirectory by [shuiRong](https://github.com/shuiRong)
 - `2020-01-04`: fix [#33](https://github.com/gaoryrt/hexo-theme-pln/issues/33) and [#36](https://github.com/gaoryrt/hexo-theme-pln/issues/36])
+</details>
 
-# license
+## license
 MIT
 
 ## Contributors ✨
@@ -149,5 +152,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
