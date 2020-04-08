@@ -4,7 +4,18 @@
   ],
   "imageSize": 70,
   "commit": false,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "xCss",
+      "name": "Nine",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10877162?v=4",
+      "profile": "http://ioliu.cn",
+      "contributions": [
+        "platform",
+        "tool"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "projectName": "hexo-theme-pln",
   "projectOwner": "gaoryrt",
