@@ -14,6 +14,15 @@
         "platform",
         "tool"
       ]
+    },
+    {
+      "login": "willmasters",
+      "name": "Will Masters",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/743296?v=4",
+      "profile": "https://github.com/willmasters",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
