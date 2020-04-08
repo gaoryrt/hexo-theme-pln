@@ -1,4 +1,7 @@
 # hexo-theme-pln
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 A plain, text-friendly Hexo theme
 
 一个纯文字友好的Hexo主题
@@ -125,3 +128,22 @@ footer_info: **black words fixed on the right end**
 
 # license
 MIT
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://gaoryrt.com"><img src="https://avatars3.githubusercontent.com/u/5306513?v=4" width="100px;" alt=""/><br /><sub><b>gaoryrt</b></sub></a><br /><a href="https://github.com/gaoryrt/hexo-theme-pln/commits?author=gaoryrt" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
