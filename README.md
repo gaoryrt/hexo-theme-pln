@@ -1,6 +1,6 @@
 # hexo-theme-pln
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A plain, text-friendly Hexo theme
 
@@ -142,6 +142,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/willmasters"><img src="https://avatars0.githubusercontent.com/u/743296?v=4" width="70px;" alt=""/><br /><sub><b>Will Masters</b></sub></a><br /><a href="https://github.com/gaoryrt/hexo-theme-pln/issues?q=author%3Awillmasters" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://linshuirong.cn"><img src="https://avatars1.githubusercontent.com/u/16076993?v=4" width="70px;" alt=""/><br /><sub><b>林水溶</b></sub></a><br /><a href="https://github.com/gaoryrt/hexo-theme-pln/issues?q=author%3AshuiRong" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://aloisdg.github.io/"><img src="https://avatars2.githubusercontent.com/u/3449303?v=4" width="70px;" alt=""/><br /><sub><b>Alois</b></sub></a><br /><a href="https://github.com/gaoryrt/hexo-theme-pln/issues?q=author%3Aaloisdg" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://gaoryrt.com"><img src="https://avatars3.githubusercontent.com/u/5306513?v=4" width="70px;" alt=""/><br /><sub><b>gaoryrt</b></sub></a><br /><a href="https://github.com/gaoryrt/hexo-theme-pln/commits?author=gaoryrt" title="Code">💻</a></td>
   </tr>
 </table>
 
