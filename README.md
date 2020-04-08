@@ -94,6 +94,7 @@ footer_info: **black words fixed on the right end**
 ## Changelog
 
 <details><summary>UNFOLD ALL</summary>
+
 - `2016-04-12`: init
 - `2016-04-13`: disqus showing same comments bug fix
 - `2016-04-13`: read more link add
@@ -127,6 +128,7 @@ footer_info: **black words fixed on the right end**
 - `2018-05-04`: optional TOC; Fixed [#27](https://github.com/gaoryrt/hexo-theme-pln/issues/27)
 - `2020-01-04`: support deploy site to server subdirectory by [shuiRong](https://github.com/shuiRong)
 - `2020-01-04`: fix [#33](https://github.com/gaoryrt/hexo-theme-pln/issues/33) and [#36](https://github.com/gaoryrt/hexo-theme-pln/issues/36])
+
 </details>
 
 ## license
