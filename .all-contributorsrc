@@ -14,6 +14,15 @@
         "platform",
         "tool"
       ]
+    },
+    {
+      "login": "shuiRong",
+      "name": "林水溶",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16076993?v=4",
+      "profile": "https://linshuirong.cn",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
