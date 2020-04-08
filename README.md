@@ -1,6 +1,6 @@
 # hexo-theme-pln
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 A plain, text-friendly Hexo theme
 
@@ -139,6 +139,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://ioliu.cn"><img src="https://avatars2.githubusercontent.com/u/10877162?v=4" width="70px;" alt=""/><br /><sub><b>Nine</b></sub></a><br /><a href="#platform-xCss" title="Packaging/porting to new platform">📦</a> <a href="#tool-xCss" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://linshuirong.cn"><img src="https://avatars1.githubusercontent.com/u/16076993?v=4" width="70px;" alt=""/><br /><sub><b>林水溶</b></sub></a><br /><a href="https://github.com/gaoryrt/hexo-theme-pln/issues?q=author%3AshuiRong" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
