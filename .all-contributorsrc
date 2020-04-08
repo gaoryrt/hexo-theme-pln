@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gaoryrt",
+      "name": "gaoryrt",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5306513?v=4",
+      "profile": "https://gaoryrt.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hexo-theme-pln",
+  "projectOwner": "gaoryrt",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
