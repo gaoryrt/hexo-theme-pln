@@ -131,7 +131,7 @@ footer_info: **black words fixed on the right end**
 
 </details>
 
-## license
+## License
 MIT
 
 ## Contributors ✨
