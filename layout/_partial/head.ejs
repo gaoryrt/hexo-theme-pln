@@ -6,6 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="google-site-verification" content="<%- config.google_analytics %>" />
+  <meta name="referrer" content="unsafe-url">
   <%
     var title = '';
     if (page.current > 1) title = __('page', page.current);
@@ -34,4 +35,5 @@
   <link rel="stylesheet" href="<%- config.root %>css/m.min.css">
   <link rel="icon" type="image/x-icon" href="<%- config.root %>favicon.ico">
   <% if (theme.latex){ %><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script><% } %>
+
 </head>
