@@ -3,11 +3,12 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [🇬🇧 English](/README.md)
+
 一个纯文字友好的Hexo主题
 
 ## 安装
 1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
-2. 修改 [hexo 配置文件](https://hexo.io/docs/configuration.html#Extensions)，指定主题为 `pln`
+2. 修改 [hexo 配置文件](https://hexo.io/zh-cn/docs/configuration.html#%E6%89%A9%E5%B1%95)，[指定主题](https://hexo.io/docs/configuration.html#Extensions)为 `pln`
 
 ## 更新
 `cd themes/pln && git pull`
@@ -22,7 +23,7 @@
 欢迎提交 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues)
 
 ### 如何启用搜索
-参考使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)，当然你也可以使用 [hexo 自带的 helper](https://hexo.io/docs/helpers#search-form) 修改 [theme/pln/layout/_partial/search.ejs](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) 文件
+参考使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)，当然你也可以使用 [hexo 自带的 helper](https://hexo.io/zh-cn/docs/helpers.html#search-form) 修改 [`theme/pln/layout/_partial/search.ejs`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) 文件
 
 ### 如何启用 Latex
 ```
