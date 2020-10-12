@@ -20,7 +20,7 @@ A plain, text-friendly Hexo theme
 Modify your [`theme/pln/_config.yml`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/_config.yml) file.
 
 ## Got a question?
-[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.
+[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcomed.
 
 ### How to enable site-searching
 Simply use [hexo-generator-search](https://github.com/wzpan/hexo-generator-search). Or change [`theme/pln/layout/_partial/search.ejs`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) file using [hexo search helper](https://hexo.io/docs/helpers.html#search-form)
@@ -30,7 +30,7 @@ brew install Pandoc
 npm uninstall hexo-renderer-marked --save
 npm install hexo-renderer-pandoc --save
 ```
-then enable it in [theme configuration](https://github.com/gaoryrt/hexo-theme-pln/blob/beecf303914f4b4a76e22026bcc8c3b15c47b6fa/_config.yml#L17)).
+then enable it in [theme configuration](https://github.com/gaoryrt/hexo-theme-pln/blob/beecf303914f4b4a76e22026bcc8c3b15c47b6fa/_config.yml#L17).
 
 ### How to modify css
 `cd source/css && sass --watch main.scss -s compressed m.min.css`
