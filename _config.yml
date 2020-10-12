@@ -1,22 +1,20 @@
-menu:
-  主页: /
-  归档: /archives
+logo: XXX # top-left logo in index page
 
-logo: XXX
-
-more:
-  友情链接: /links.html
+more: # more links at top right index page
+  links: /links.html
   Github: https://github.com/XXX/
-  微博: http://weibo.com/XXX
-  知乎: https://www.zhihu.com/people/XXX
   rss: /rss2.xml
-  关于我: /
 
-about:
+footer_info: © XXX 2016-2020 # about info at right foot
+about: # about link at right foot
   title: Theme Pln
   link: https://github.com/gaoryrt/hexo-theme-pln
 
-show_toc_bool: true
+excerpt_num: 120
+
+toc: true
+
+latex: true
 
 # If you want to use valine,you should get the appId and appKey form https://leancloud.cn ,more setting please see https://valine.js.org
 valine:
@@ -30,10 +28,3 @@ valine:
   verify: false # valine verify code (true/false)
   notify: false # valine mail notify (true/false)
   lang: zh-cn
-
-
-excerpt_num: 120
-
-footer_info: © XXX 2016-2020
-
-latex: true

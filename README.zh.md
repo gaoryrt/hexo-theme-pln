@@ -2,110 +2,41 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-A plain, text-friendly Hexo theme
+一个纯文字友好的Hexo主题
 
 ![index](/screenShots/ver1.0-index.jpg)
 ![tags](/screenShots/ver1.0-tags.jpg)
 ![article](/screenShots/ver1.0-article.jpg)
 ![dropdown](/screenShots/ver1.0-dropdown.jpg)
-*screenshots capcures at 2016-05-14*
+*截图于 2016-05-14*
 
-[🇨🇳 中文](/README.zh.md)
+## 安装
+1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
+2. 修改 hexo 配置文件，指定主题为 `pln`
 
-## Install
-Execute the following command in your `hexo` folder.
+## 更新
+`cd themes/pln && git pull`
 
-```
-git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln
-```
+## 卸载
+`cd themes && rm -rf pln`
 
-Then find `theme` in `hexo/_config.yml`, make it look like this: `theme: pln`
+## 配置
+在 `theme/pln/_config.yml`
 
-## Update
-Execute the following command to update Pln.
+## 有问题吗？
+欢迎提交 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues)
 
-```
-cd themes/pln
-git pull
-```
+### 如何启用搜索
+使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
 
-## Uninstall
-Execute the following command to uninstall Pln.
-```
-cd themes
-rm -rf pln
-```
-***
-## After install
-
-**Always adds `subtitle: ` to your `hexo/_config.yml` to avoid bug.**
-
-```yml
-subtitle: 'I am subtitle.'
-
-...
-If your site is put in a subdirectory, set root as '/<your subdirectory>/', for example: /blog/.
-root: ''
-```
-
-**You should modify `hexo/themes/pln/_config.yml` file before deploying.**
-
-
-```yaml
-menu:
-  main: /
-  archives: /archives
-
-logo: **word on the left-top end**
-
-more:
-  **link title**: **link url**
-  rss: /rss2.xml
-
-about:
-  title: **blue words fixed on the right end**
-  link: **url of the blue words**
-
-disqus_shortname: **as it described, find it on your disqus site**
-
-excerpt_num: **number of auto excerpt words**
-
-footer_info: **black words fixed on the right end**
-```
-
-***
-
-## Issues
-[Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcome.
-
-## FAQ
-### How to enable site-searching
-1. `npm install --save hexo-generator-search`
-
-2. append following content in your `_config.yml` file
-```
-search:
-  path: search.xml
-  field: all
-```
-
-3. regenerate with `hexo g`
-### How to enable Latex
-1. excute following commands
-
+### 如何启用 Latex
 ```
 brew install Pandoc
 npm uninstall hexo-renderer-marked --save
 npm install hexo-renderer-pandoc --save
 ```
 
-2. make sure `latex: true` in your `themes/pln/_config.xml` file
-
-3. regenerate with `hexo g`
-
-***
-
-## Changelog
+## 更新日志
 
 <details><summary>UNFOLD ALL</summary>
 

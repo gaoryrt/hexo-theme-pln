@@ -26,7 +26,7 @@
       <%- partial('post/meta', {item: item}) %>
     </div>
     <hr>
-    <% if (theme.show_toc_bool) {  %>
+    <% if (page.toc === undefined ? theme.toc : page.toc) {  %>
       <%- toc(page.content, {list_number: false}) %>
     <% } %>
     <div class="picture-container">
