@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[🇨🇳 中文](/README.zh.md)
+[🇨🇳 中文](/README.zh.md) [🖼 screenshots](/screenShots/index.md)
 
 A plain, text-friendly Hexo theme
 
@@ -31,9 +31,6 @@ npm uninstall hexo-renderer-marked --save
 npm install hexo-renderer-pandoc --save
 ```
 then enable it in [theme configuration](https://github.com/gaoryrt/hexo-theme-pln/blob/beecf303914f4b4a76e22026bcc8c3b15c47b6fa/_config.yml#L17).
-
-### How to modify css
-`cd source/css && sass --watch main.scss -s compressed m.min.css`
 
 ## License
 MIT

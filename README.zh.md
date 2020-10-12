@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[🇬🇧 English](/README.md)
+[🇬🇧 English](/README.md) [🖼 截图](/screenShots/index.md)
 
 一个纯文字友好的Hexo主题
 
@@ -32,9 +32,6 @@ npm uninstall hexo-renderer-marked --save
 npm install hexo-renderer-pandoc --save
 ```
 然后在[配置中启用](https://github.com/gaoryrt/hexo-theme-pln/blob/beecf303914f4b4a76e22026bcc8c3b15c47b6fa/_config.yml#L17)即可
-
-### 如何自定义 css
-`cd source/css && sass --watch main.scss -s compressed m.min.css`
 
 ## License
 MIT
