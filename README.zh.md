@@ -7,7 +7,7 @@
 
 ## 安装
 1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
-2. 修改 hexo 配置文件，指定主题为 `pln`
+2. 修改 [hexo 配置文件](https://hexo.io/docs/configuration.html#Extensions)，指定主题为 `pln`
 
 ## 更新
 `cd themes/pln && git pull`
@@ -16,13 +16,13 @@
 `cd themes && rm -rf pln`
 
 ## 配置
-在 `theme/pln/_config.yml`
+修改 [`theme/pln/_config.yml`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/_config.yml) 文件即可
 
 ## 有问题吗？
 欢迎提交 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues)
 
 ### 如何启用搜索
-参考使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
+参考使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)，当然你也可以使用 [hexo 自带的 helper](https://hexo.io/docs/helpers#search-form) 修改 [theme/pln/layout/_partial/search.ejs](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) 文件
 
 ### 如何启用 Latex
 ```
@@ -30,6 +30,7 @@ brew install Pandoc
 npm uninstall hexo-renderer-marked --save
 npm install hexo-renderer-pandoc --save
 ```
+然后在[配置中启用](https://github.com/gaoryrt/hexo-theme-pln/blob/beecf303914f4b4a76e22026bcc8c3b15c47b6fa/_config.yml#L17)即可
 
 ### 如何自定义 css
 `cd source/css && sass --watch main.scss -s compressed m.min.css`
