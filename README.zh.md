@@ -5,13 +5,6 @@
 [🇬🇧 English](/README.md)
 一个纯文字友好的Hexo主题
 
-<details><summary><h2>预览</h2></summary>
-![index](/screenShots/ver1.0-index.jpg)
-![tags](/screenShots/ver1.0-tags.jpg)
-![article](/screenShots/ver1.0-article.jpg)
-![dropdown](/screenShots/ver1.0-dropdown.jpg)
-</details>
-
 ## 安装
 1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
 2. 修改 hexo 配置文件，指定主题为 `pln`
