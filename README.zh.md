@@ -2,13 +2,15 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[🇬🇧 English](/README.md)
 一个纯文字友好的Hexo主题
 
+<details><summary><h2>预览</h2></summary>
 ![index](/screenShots/ver1.0-index.jpg)
 ![tags](/screenShots/ver1.0-tags.jpg)
 ![article](/screenShots/ver1.0-article.jpg)
 ![dropdown](/screenShots/ver1.0-dropdown.jpg)
-*截图于 2016-05-14*
+</details>
 
 ## 安装
 1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
@@ -27,7 +29,7 @@
 欢迎提交 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues)
 
 ### 如何启用搜索
-使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
+参考使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
 
 ### 如何启用 Latex
 ```
@@ -36,45 +38,8 @@ npm uninstall hexo-renderer-marked --save
 npm install hexo-renderer-pandoc --save
 ```
 
-## 更新日志
-
-<details><summary>UNFOLD ALL</summary>
-
-- `2016-04-12`: init
-- `2016-04-13`: disqus showing same comments bug fix
-- `2016-04-13`: read more link add
-- `2016-04-13`: no-tag but icon bug fix
-- `2016-04-13`: pass theme unit test
-- `2016-04-14`: [#1](https://github.com/gaoryrt/hexo-theme-pln/issues/1)
-- `2016-04-17`: archives header bug fix
-- `2016-04-24`: forgot to add a css file last commit, maybe that's why nobody gives a star
-- `2016-04-25`: missing tag icon bug fix
-- `2016-04-26`: ul list unstyle bug fix
-- `2016-04-27`: **add google_analytics, add `google_analytics: YOURTOKENHERE` in `hexo/_config.yml` file to enable**
-- `2016-05-01`: no subtitle layout bug fix
-- `2016-05-04`: new footer rule, .behind layout upgrade
-- `2016-05-06`: upgrade cssstyle, button filter bug fix
-- `2016-05-08`: upgrade js ?: operator，fasten loading speed, busuanzi added
-- ------------ VERSION 1.0 ------------
-- `2016-05-14`: pln ver1.0, searching function is loading
-- `2016-05-15`: css -> SCSS (`sass --style compressed main.scss:m.min.css`), footer wrap bug fix
-- `2016-05-27`: more pln in `behind`, `busuanzi`, `meta`, `afterfooter`
-- `2016-05-29`: `h2 > code` style bug fixed
-- `2016-07-03`: https web-font bug fix
-- `2016-07-05`: search added
-- `2016-07-10`: disqus bug fix
-- `2016-08-08`: apple-touch-icon added
-- `2016-08-18`: font update
-- `2016-08-29`: i18n: en
-- `2016-11-06`: Bug fix: the tab bar can not be scrolled when there are too many tabs. 增加了分享到微信朋友圈的图片，需要将一张名为 wx_share.png 的 大于 300*300 的图片放在根目录（public）下。
-- `2017-02-04`: dropdown-content css upgrade
-- `2017-08-27`: remove wx_share.png; remove fontawesome, use inline SVG
-- `2018-02-03`: support TOC, finally
-- `2018-05-04`: optional TOC; Fixed [#27](https://github.com/gaoryrt/hexo-theme-pln/issues/27)
-- `2020-01-04`: support deploy site to server subdirectory by [shuiRong](https://github.com/shuiRong)
-- `2020-01-04`: fix [#33](https://github.com/gaoryrt/hexo-theme-pln/issues/33) and [#36](https://github.com/gaoryrt/hexo-theme-pln/issues/36])
-
-</details>
+### 如何自定义 css
+`cd source/css && sass --watch main.scss -s compressed m.min.css`
 
 ## License
 MIT

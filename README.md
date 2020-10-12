@@ -2,15 +2,16 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[🇨🇳 中文](/README.zh.md)
+
 A plain, text-friendly Hexo theme
 
 ![index](/screenShots/ver1.0-index.jpg)
 ![tags](/screenShots/ver1.0-tags.jpg)
 ![article](/screenShots/ver1.0-article.jpg)
 ![dropdown](/screenShots/ver1.0-dropdown.jpg)
-*screenshots capcures at 2016-05-14*
 
-[🇨🇳 中文](/README.zh.md)
+*screenshots capcures at 2016-05-14*
 
 ## Install
 Execute the following command in your `hexo` folder.
