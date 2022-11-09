@@ -22,8 +22,8 @@
 ## 有问题吗？
 欢迎提交 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues)
 
-### 如何启用搜索
-参考使用 [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)，当然你也可以使用 [hexo 自带的 helper](https://hexo.io/zh-cn/docs/helpers.html#search-form) 修改 [`theme/pln/layout/_partial/search.ejs`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) 文件
+### 如何修改搜索引擎
+你可以使用 [hexo 自带的 helper](https://hexo.io/zh-cn/docs/helpers.html#search-form) 修改 [`theme/pln/layout/_partial/search.ejs`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) 文件
 
 ### 如何启用 Latex
 ```

@@ -16,71 +16,14 @@
     background: #fbfbfa;
     transition: all .2s;
     box-shadow: inset 3px 3px 8px rgba(209, 205, 199, .25);
+    font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"PingFang SC",STHeiti,"Helvetica Neue","Microsoft Yahei",Tahoma,Simsun,sans-serif;
     &:focus {
         outline: 0;
     }
 }
 
-#local-search-input:focus {
-    background: #337ab7;
-    color: #fff;
-}
-
-#local-search-input:focus::-webkit-input-placeholder {
-    color: #fff;
-}
-
-#local-search-input:focus::-moz-placeholder {
-    color: #fff;
-}
-
-#local-search-input:focus:-ms-input-placeholder {
-    color: #fff;
-}
-
-#local-search-result {
-    left: 15%;
-    top: 50px;
-    max-height: 80%;
-    position: fixed;
-    background-color: #337ab7;
-    width: 75%;
-    overflow-y: auto;
-}
-
-.search-result-title {
-    margin-top: 20px;
-    color: #fff;
-    font-weight: 700!important;
-    font-family: 'Open Sans Condensed', Helvetica Neue, Helvetica, PingFang SC, Lantinghei SC, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, STHeitiSC-Light, simsun, WenQuanYi Zen Hei, WenQuanYi Micro Hei, Arial, sans-serif;
-    font-size: 32px;
-    line-height: 32px;
-}
-
-.search-result-list li {
-    padding: 40px 50px 0 20px;
-}
-
-.search-result,
-.search-result-title:hover {
-    color: #ddd;
-}
-
-.search-keyword {
-    color: #fff;
-    font: 900 1em/1em "";
-    text-decoration: underline;
-    margin: 2px;
-}
-
-.search-result {
-    word-wrap: break-word;
-    word-break: normal;
-}
-
 @media screen and (max-width:782px) {
-    #site_search,
-    #local-search-result {
+    #site_search {
         display: none;
     }
 }

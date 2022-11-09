@@ -22,8 +22,8 @@ Modify your [`theme/pln/_config.yml`](https://github.com/gaoryrt/hexo-theme-pln/
 ## Got a question?
 [Issues](https://github.com/gaoryrt/hexo-theme-pln/issues) are always welcomed.
 
-### How to enable site-searching
-Simply use [hexo-generator-search](https://github.com/wzpan/hexo-generator-search). Or change [`theme/pln/layout/_partial/search.ejs`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) file using [hexo search helper](https://hexo.io/docs/helpers.html#search-form)
+### How to modify site-searching
+Or change [`theme/pln/layout/_partial/search.ejs`](https://github.com/gaoryrt/hexo-theme-pln/blob/master/layout/_partial/search.ejs) file using [hexo search helper](https://hexo.io/docs/helpers.html#search-form)
 ### How to enable Latex
 ```
 brew install Pandoc
